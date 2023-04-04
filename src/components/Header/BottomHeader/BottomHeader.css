@@ -1,0 +1,24 @@
+.op-header {
+    background-color: #1a2431;
+    min-height: 50px;
+}
+.op-header .op-logo {
+    position: relative;
+    display: block;
+    padding: 20px 0;
+}
+.op-gns .navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+    margin-bottom: 0;
+    border: 0;
+}
+.op-gns .op-menu {
+    padding-right: 0;
+}
+.navbar-header {
+    float: right;
+}
+.nav-link{
+    color: white;
+}

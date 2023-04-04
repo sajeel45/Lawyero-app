@@ -1,0 +1,18 @@
+.header .op-header-top {
+    padding: 5px 0;
+    color: #1a2431;
+    font-size: 14px;
+}
+.op-header-top .op-call-us a.tel {
+    font-weight: 600;
+    text-decoration: none;
+    color: #1a2431;
+}
+.bold {
+    font-weight: 700;
+}
+.op-header-top .request-free-consultation {
+    font-weight: 600;
+    text-decoration: none;
+    color: #1a2431;
+}
