@@ -22,8 +22,8 @@ const BottomHeader = () => {
                         <Container fluid>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
                         <Navbar.Collapse id="basic-navbar-nav">
-                            <Nav className='me-auto nav-link'>
-                            <NavDropdown title="Home" id='basic-nav-dropdown' menuVariant='dark'>
+                            <Nav className=' nav-link'>
+                            <NavDropdown href="/home" title="Home" id='basic-nav-dropdown' menuVariant='dark'>
                                 <NavDropdown.Item href='#' className='nav-link'>Home 1</NavDropdown.Item>
                                 <NavDropdown.Item href='#' className='nav-link'>Home 2</NavDropdown.Item>
                             </NavDropdown>
