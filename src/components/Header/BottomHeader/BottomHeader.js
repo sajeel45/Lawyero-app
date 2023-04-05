@@ -18,35 +18,39 @@ const BottomHeader = () => {
                     </a>
                 </Col>
                 <Col md = "9" sm = "6" className='op-gns'>
-                    <Navbar expand='lg' variant='dark'>
+                    <Navbar expand='lg' variant='dark' className=''>
                         <Container fluid>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                        <Navbar.Collapse id="basic-navbar-nav">
-                            <Nav className=' nav-link'>
-                            <NavDropdown href="/home" title="Home" id='basic-nav-dropdown' menuVariant='dark' className='nav-spacing'>
-                                <NavDropdown.Item href='#' className='nav-link'>Home 1</NavDropdown.Item>
-                                <NavDropdown.Item href='#' className='nav-link'>Home 2</NavDropdown.Item>
+                        <Navbar.Collapse id="basic-navbar-nav" className='op-menu'>
+                            <Nav className=' nav-link nav' as="ul">
+                            <NavDropdown href="/home" title="Home" id='basic-nav-dropdown' menuVariant='dark' as="li" className=''>
+                                <NavDropdown.Item href='#' className='nav-link' as="li">Home 1</NavDropdown.Item>
+                                <NavDropdown.Item href='#' className='nav-link' as="li">Home 2</NavDropdown.Item>
                             </NavDropdown>
-                            <Nav.Link href='#' className='nav-spacing'>Who We Are</Nav.Link>
-                            <NavDropdown title="Practice Areas" id='basic-nav-dropdown' menuVariant='dark' className='nav-spacing'>
-                                <NavDropdown.Item href='#' className='nav-link'>2 Column Layout</NavDropdown.Item>
-                                <NavDropdown.Item href='#' className='nav-link'>3 Column Layout</NavDropdown.Item>
-                                <NavDropdown.Item href='#' className='nav-link'>Individual Practice Area</NavDropdown.Item>
+                            <Nav as="li">
+                                <Nav.Link href='#'>Who We Are</Nav.Link>
+                            </Nav>
+                            <NavDropdown title="Practice Areas" id='basic-nav-dropdown' menuVariant='dark' as="li">
+                                <NavDropdown.Item href='#' className='nav-link' as="li">2 Column Layout</NavDropdown.Item>
+                                <NavDropdown.Item href='#' className='nav-link' as="li">3 Column Layout</NavDropdown.Item>
+                                <NavDropdown.Item href='#' className='nav-link' as="li">Individual Practice Area</NavDropdown.Item>
                             </NavDropdown>
-                            <NavDropdown title='Team Members' id='basic-nav-dropdown' menuVariant='dark' className='nav-spacing'>
-                                <NavDropdown.Item href='#' className='nav-link'>Robert Darren</NavDropdown.Item>
+                            <NavDropdown title='Team Members' id='basic-nav-dropdown' menuVariant='dark' as="li" >
+                                <NavDropdown.Item href='#' className='nav-link' as="li">Robert Darren</NavDropdown.Item>
                             </NavDropdown>
-                            <NavDropdown title='Pages' id='basic-nav-dropdown' menuVariant='dark' className='nav-spacing'>
-                                <NavDropdown.Item href='#' className='nav-link'>FAQs</NavDropdown.Item>
-                                <NavDropdown.Item href='#' className='nav-link'>404 Page</NavDropdown.Item>
+                            <NavDropdown title='Pages' id='basic-nav-dropdown' menuVariant='dark' as="li">
+                                <NavDropdown.Item href='#' className='nav-link' as="li">FAQs</NavDropdown.Item>
+                                <NavDropdown.Item href='#' className='nav-link' as="li">404 Page</NavDropdown.Item>
                             </NavDropdown>
-                            <NavDropdown title='Blogs' id = 'basic-nav-dropwdown' menuVariant='dark' className='nav-spacing'>
-                                <NavDropdown.Item href='#' className='nav-link'>Blog With SideBar</NavDropdown.Item>
-                                <NavDropdown.Item href='#' className='nav-link'>Blog FullPage</NavDropdown.Item>
-                                <NavDropdown.Item href='#' className='nav-link'>Blog Chess</NavDropdown.Item>
-                                <NavDropdown.Item href='#' className='nav-link'>Blog Grid</NavDropdown.Item>
+                            <NavDropdown title='Blogs' id = 'basic-nav-dropwdown' menuVariant='dark' as="li">
+                                <NavDropdown.Item href='#' className='nav-link' as="li">Blog With SideBar</NavDropdown.Item>
+                                <NavDropdown.Item href='#' className='nav-link' as="li">Blog FullPage</NavDropdown.Item>
+                                <NavDropdown.Item href='#' className='nav-link' as="li">Blog Chess</NavDropdown.Item>
+                                <NavDropdown.Item href='#' className='nav-link' as="li">Blog Grid</NavDropdown.Item>
                             </NavDropdown>
-                            <Nav.Link href='#' className='nav-spacing'>Contact</Nav.Link>
+                            <Nav as="li">
+                            <Nav.Link href='#'>Contact</Nav.Link>
+                            </Nav>
                             </Nav>
                             </Navbar.Collapse>
 
