@@ -1,0 +1,26 @@
+.content-section {
+    overflow: hidden;
+}
+.op-slogan-section.op-title-wrapper {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.home .op-slogan-section {
+    display: none;
+}
+.op-title-wrapper {
+    padding: 79px 0 67px 0;
+}
+.op-slogan-section {
+    position: relative;
+    padding: 82px 0 90px 0;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.dark-color-overlay-over-image {
+    position: relative;
+}

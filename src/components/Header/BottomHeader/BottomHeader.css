@@ -19,6 +19,10 @@
 .navbar-header {
     float: right;
 }
-.nav-link{
+.nav-link {
     color: white;
+    
+}
+.nav-spacing{
+    margin: 0 16px;
 }
