@@ -36,12 +36,12 @@
 .op-gns .navbar-default .navbar-nav {
     float: right;
 }
-/* .op-gns .op-menu > ul > li {
+.op-gns .op-menu > ul > li {
     margin: 0 16px;
-} */
+}
 .op-gns .op-menu > ul > li > a {
     color: #ffffff;
-    /* padding: 25px 0; */
+    padding: 25px 0;
     font-size: 14px;
 }
 /* .dropdown-menu {
