@@ -32,6 +32,7 @@
 }
 .op-gns .op-menu {
     padding-right: 0;
+    justify-content: end;
 }
 .op-gns .navbar-default .navbar-nav {
     float: right;
@@ -39,12 +40,27 @@
 .op-gns .op-menu > ul > li {
     margin: 0 16px;
 }
+.navbar{
+    padding: 0;
+    justify-content: end;
+}
+.nav.navbar-nav{
+    padding: 0;
+    justify-content: end;
+}
+.navbar-nav {
+    float: left;
+    margin: 0;
+}
 .op-gns .op-menu > ul > li > a {
     color: #ffffff;
-    padding: 25px 0;
+    padding: 25px 0 !important;
     font-size: 14px;
 }
-/* .dropdown-menu {
+.op-gns .op-menu > ul > li:last-of-type a {
+    padding-right: 0 !important;
+}
+.op-gns .op-menu > ul > li .dropdown-menu {
     background-color: #1a2431;
     border: none;
     min-width: 200px;
@@ -56,4 +72,50 @@
     transition: transform 0.5s 0.1s cubic-bezier(0.68, -0.55, 0.265, 1.55), opacity 0.5s 0.1s cubic-bezier(0.68, -0.55, 0.265, 1.55);
     -webkit-transform-origin: 0;
     transform-origin: 0 0;
-}  */
+}
+.op-gns .op-menu > ul > li:hover > .dropdown-menu {
+    display: block;
+    opacity: 1;
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+}
+.op-gns .op-menu .basic-nav-dropdown > li a{
+    color: #ffffff;
+    position: relative;
+    padding: 15px 20px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.navbar-nav>li>.dropdown-menu {
+    margin-top: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.dropdown-menu .dropdown-item>li>a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    color: #333;
+    white-space: nowrap;
+}
+.op-gns .op-menu > ul > li .dropdown-menu li a:before {
+    position: absolute;
+    content: "\f054";
+    left: 0;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 12px;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: none;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 10px;
+    height: 10px;
+}
