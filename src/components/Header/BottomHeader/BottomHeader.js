@@ -19,42 +19,40 @@ const BottomHeader = () => {
                 </Col>
                 <Col md = "9" sm = "6" className='op-gns'>
                     <Navbar expand='lg' variant='dark' className=''>
-                        <Container fluid>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
                         <Navbar.Collapse id="basic-navbar-nav" className='op-menu'>
                             <Nav className=' nav-link nav'  as="ul">
-                            <NavDropdown href="/home" title="Home" id='basic-nav-dropdown' menuVariant='dark' as="li" className=''>
-                                <NavDropdown.Item href='#' className='nav-link' as="li">Home 1</NavDropdown.Item>
-                                <NavDropdown.Item href='#' className='nav-link' as="li">Home 2</NavDropdown.Item>
+                            <NavDropdown href="/home" title="Home" id='basic-nav-dropdown' menuVariant='dark' as="li" renderMenuOnMount="true">
+                                <NavDropdown.Item href='#' className='nav-link'>Home 1</NavDropdown.Item>
+                                <NavDropdown.Item href='#' className='nav-link'>Home 2</NavDropdown.Item>
                             </NavDropdown>
-                            <Nav as="li">
+                            <Nav.Item as="li">
                                 <Nav.Link href='#'>Who We Are</Nav.Link>
-                            </Nav>
-                            <NavDropdown title="Practice Areas" id='basic-nav-dropdown' menuVariant='dark' as="li">
+                            </Nav.Item>
+                            <NavDropdown title="Practice Areas" id='basic-nav-dropdown' menuVariant='dark' as="li" renderMenuOnMount="true">
                                 <NavDropdown.Item href='#' className='nav-link' as="li">2 Column Layout</NavDropdown.Item>
                                 <NavDropdown.Item href='#' className='nav-link' as="li">3 Column Layout</NavDropdown.Item>
                                 <NavDropdown.Item href='#' className='nav-link' as="li">Individual Practice Area</NavDropdown.Item>
                             </NavDropdown>
-                            <NavDropdown title='Team Members' id='basic-nav-dropdown' menuVariant='dark' as="li" >
+                            <NavDropdown title='Team Members' id='basic-nav-dropdown' menuVariant='dark' as="li" renderMenuOnMount="true">
                                 <NavDropdown.Item href='#' className='nav-link' as="li">Robert Darren</NavDropdown.Item>
                             </NavDropdown>
-                            <NavDropdown title='Pages' id='basic-nav-dropdown' menuVariant='dark' as="li">
+                            <NavDropdown title='Pages' id='basic-nav-dropdown' menuVariant='dark' as="li" renderMenuOnMount="true">
                                 <NavDropdown.Item href='#' className='nav-link' as="li">FAQs</NavDropdown.Item>
                                 <NavDropdown.Item href='#' className='nav-link' as="li">404 Page</NavDropdown.Item>
                             </NavDropdown>
-                            <NavDropdown title='Blogs' id = 'basic-nav-dropwdown' menuVariant='dark' as="li">
+                            <NavDropdown title='Blogs' id = 'basic-nav-dropwdown' menuVariant='dark' as="li" renderMenuOnMount="true">
                                 <NavDropdown.Item href='#' className='nav-link' as="li">Blog With SideBar</NavDropdown.Item>
                                 <NavDropdown.Item href='#' className='nav-link' as="li">Blog FullPage</NavDropdown.Item>
                                 <NavDropdown.Item href='#' className='nav-link' as="li">Blog Chess</NavDropdown.Item>
                                 <NavDropdown.Item href='#' className='nav-link' as="li">Blog Grid</NavDropdown.Item>
                             </NavDropdown>
-                            <Nav as="li">
-                            <Nav.Link href='#'>Contact</Nav.Link>
-                            </Nav>
+                            <Nav.Item as="li">
+                                <Nav.Link href='#'>Contact</Nav.Link>
+                            </Nav.Item>
                             </Nav>
                             </Navbar.Collapse>
 
-                        </Container>
                     </Navbar>
                 </Col>
             </Row>

@@ -40,6 +40,9 @@
 .op-gns .op-menu > ul > li {
     margin: 0 16px;
 }
+.op-gns .op-menu > ul > li:last-child{
+    margin-right: 0;
+}
 .navbar{
     padding: 0;
     justify-content: end;
@@ -79,7 +82,7 @@
     -webkit-transform: scaleY(1);
     transform: scaleY(1);
 }
-.op-gns .op-menu .basic-nav-dropdown > li a{
+.op-gns .op-menu .dropdown-menu a{
     color: #ffffff;
     position: relative;
     padding: 15px 20px;
