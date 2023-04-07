@@ -26,7 +26,6 @@ const BottomHeader = () => {
                                 <NavDropdown.Item href='#' className='nav-link'>Home 1</NavDropdown.Item>
                                 <NavDropdown.Divider color='gray' />
                                 <NavDropdown.Item href='#' className='nav-link'>Home 2</NavDropdown.Item>
-                                
                             </NavDropdown>
                             <Nav.Item as="li">
                                 <Nav.Link href='#'>Who We Are</Nav.Link>
