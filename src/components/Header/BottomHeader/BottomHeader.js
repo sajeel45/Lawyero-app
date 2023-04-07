@@ -24,7 +24,7 @@ const BottomHeader = () => {
                             <Nav className=' nav-link nav'  as="ul">
                             <NavDropdown href="/home" title="Home" id='basic-nav-dropdown' menuVariant='dark' as="li" renderMenuOnMount="true">
                                 <NavDropdown.Item href='#' className='nav-link'>Home 1</NavDropdown.Item>
-                                <NavDropdown.Divider />
+                                <NavDropdown.Divider color='gray' />
                                 <NavDropdown.Item href='#' className='nav-link'>Home 2</NavDropdown.Item>
                                 
                             </NavDropdown>
@@ -32,10 +32,11 @@ const BottomHeader = () => {
                                 <Nav.Link href='#'>Who We Are</Nav.Link>
                             </Nav.Item>
                             <NavDropdown title="Practice Areas" id='basic-nav-dropdown' menuVariant='dark' as="li" renderMenuOnMount="true">
+                                
                                 <NavDropdown.Item href='#' className='nav-link'>2 Column Layout</NavDropdown.Item>
-                                <NavDropdown.Divider />
+                                <NavDropdown.Divider color='gray'/>
                                 <NavDropdown.Item href='#' className='nav-link'>3 Column Layout</NavDropdown.Item>
-                                <NavDropdown.Divider />
+                                <NavDropdown.Divider color='gray'/>
                                 <NavDropdown.Item href='#' className='nav-link'>Individual Practice Area</NavDropdown.Item>
                             </NavDropdown>
                             <NavDropdown title='Team Members' id='basic-nav-dropdown' menuVariant='dark' as="li" renderMenuOnMount="true">
@@ -43,16 +44,16 @@ const BottomHeader = () => {
                             </NavDropdown>
                             <NavDropdown title='Pages' id='basic-nav-dropdown' menuVariant='dark' as="li" renderMenuOnMount="true">
                                 <NavDropdown.Item href='#' className='nav-link'>FAQs</NavDropdown.Item>
-                                <NavDropdown.Divider />
+                                <NavDropdown.Divider color='gray'/>
                                 <NavDropdown.Item href='#' className='nav-link'>404 Page</NavDropdown.Item>
                             </NavDropdown>
                             <NavDropdown title='Blogs' id = 'basic-nav-dropwdown' menuVariant='dark' as="li" renderMenuOnMount="true">
                                 <NavDropdown.Item href='#' className='nav-link'>Blog With SideBar</NavDropdown.Item>
-                                <NavDropdown.Divider />
+                                <NavDropdown.Divider color='gray'/>
                                 <NavDropdown.Item href='#' className='nav-link'>Blog FullPage</NavDropdown.Item>
-                                <NavDropdown.Divider />
+                                <NavDropdown.Divider color='gray'/>
                                 <NavDropdown.Item href='#' className='nav-link'>Blog Chess</NavDropdown.Item>
-                                <NavDropdown.Divider />
+                                <NavDropdown.Divider color='gray'/>
                                 <NavDropdown.Item href='#' className='nav-link'>Blog Grid</NavDropdown.Item>
                             </NavDropdown>
                             <Nav.Item as="li">
