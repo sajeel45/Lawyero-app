@@ -39,6 +39,7 @@
 }
 .op-gns .op-menu > ul > li {
     margin: 0 16px;
+    position: relative;
 }
 .op-gns .op-menu > ul > li:last-child{
     margin-right: 0;
@@ -108,7 +109,7 @@
 .op-gns .op-menu > ul > li > a:hover{
     color: #14cab4;
 }
-.op-gns .op-menu > ul > li > a:hover:after {
+.op-gns .op-menu > ul > li > a:hover::before {
     position: absolute;
     left: 0;
     content: "";
