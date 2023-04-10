@@ -119,6 +119,7 @@
     transition: transform 250ms ease-in-out;
     bottom: 0;
 }
+
 .navbar-nav>li>.dropdown-menu {
     margin-top: 0;
     border-top-left-radius: 0;
