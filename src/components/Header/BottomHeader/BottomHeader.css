@@ -95,6 +95,15 @@
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
 }
+.op-gns .op-menu > ul > li .dropdown-menu a {
+    border-bottom: 1px solid #29374a;
+}
+.op-gns .op-menu > ul > li .dropdown-menu a:last-child{
+    border-bottom: 0;
+}
+.op-gns .op-menu .dropdown-menu  a{
+    border-bottom: 1px solid #29374a;
+}
 .op-gns .op-menu .dropdown-menu  a:hover{
     color: #14cab4;
     background-color: transparent;
@@ -109,7 +118,7 @@
 .op-gns .op-menu > ul > li > a:hover{
     color: #14cab4;
 }
-.op-gns .op-menu > ul > li > a:hover::before {
+.op-gns .op-menu > ul > li > a:hover:before {
     position: absolute;
     left: 0;
     content: "";
@@ -135,7 +144,7 @@
     color: #333;
     white-space: nowrap;
 }
-.op-gns .op-menu .dropdown-menu a:hover:before {
+.op-gns .op-menu .dropdown-menu  a:hover:before {
     position: absolute;
     content: "\f054";
     left: 0;

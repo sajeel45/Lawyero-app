@@ -22,7 +22,7 @@ const BottomHeader = () => {
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
                         <Navbar.Collapse id="basic-navbar-nav" className='op-menu'>
                             <Nav className=' nav-link nav'  as="ul">
-                            <NavDropdown href="/home" title="Home" id='basic-nav-dropdown' menuVariant='dark' as="li" renderMenuOnMount="true">
+                            <NavDropdown title="Home" id='basic-nav-dropdown' menuVariant='dark' as="li" renderMenuOnMount="true">
                                 <NavDropdown.Item href='#' className='nav-link'>Home 1</NavDropdown.Item>
                                 <NavDropdown.Item href='#' className='nav-link'>Home 2</NavDropdown.Item>
                             </NavDropdown>
@@ -30,22 +30,22 @@ const BottomHeader = () => {
                                 <Nav.Link href='#'>Who We Are</Nav.Link>
                             </Nav.Item>
                             <NavDropdown title="Practice Areas" id='basic-nav-dropdown' menuVariant='dark' as="li" renderMenuOnMount="true">
-                                <NavDropdown.Item href='#' className='nav-link' as="li">2 Column Layout</NavDropdown.Item>
-                                <NavDropdown.Item href='#' className='nav-link' as="li">3 Column Layout</NavDropdown.Item>
-                                <NavDropdown.Item href='#' className='nav-link' as="li">Individual Practice Area</NavDropdown.Item>
+                                <NavDropdown.Item href='#' className='nav-link'>2 Column Layout</NavDropdown.Item>
+                                <NavDropdown.Item href='#' className='nav-link'>3 Column Layout</NavDropdown.Item>
+                                <NavDropdown.Item href='#' className='nav-link'>Individual Practice Area</NavDropdown.Item>
                             </NavDropdown>
                             <NavDropdown title='Team Members' id='basic-nav-dropdown' menuVariant='dark' as="li" renderMenuOnMount="true">
-                                <NavDropdown.Item href='#' className='nav-link' as="li">Robert Darren</NavDropdown.Item>
+                                <NavDropdown.Item href='#' className='nav-link'>Robert Darren</NavDropdown.Item>
                             </NavDropdown>
                             <NavDropdown title='Pages' id='basic-nav-dropdown' menuVariant='dark' as="li" renderMenuOnMount="true">
-                                <NavDropdown.Item href='#' className='nav-link' as="li">FAQs</NavDropdown.Item>
-                                <NavDropdown.Item href='#' className='nav-link' as="li">404 Page</NavDropdown.Item>
+                                <NavDropdown.Item href='#' className='nav-link'>FAQs</NavDropdown.Item>
+                                <NavDropdown.Item href='#' className='nav-link'>404 Page</NavDropdown.Item>
                             </NavDropdown>
                             <NavDropdown title='Blogs' id = 'basic-nav-dropwdown' menuVariant='dark' as="li" renderMenuOnMount="true">
-                                <NavDropdown.Item href='#' className='nav-link' as="li">Blog With SideBar</NavDropdown.Item>
-                                <NavDropdown.Item href='#' className='nav-link' as="li">Blog FullPage</NavDropdown.Item>
-                                <NavDropdown.Item href='#' className='nav-link' as="li">Blog Chess</NavDropdown.Item>
-                                <NavDropdown.Item href='#' className='nav-link' as="li">Blog Grid</NavDropdown.Item>
+                                <NavDropdown.Item href='#' className='nav-link'>Blog With SideBar</NavDropdown.Item>
+                                <NavDropdown.Item href='#' className='nav-link'>Blog FullPage</NavDropdown.Item>
+                                <NavDropdown.Item href='#' className='nav-link'>Blog Chess</NavDropdown.Item>
+                                <NavDropdown.Item href='#' className='nav-link'>Blog Grid</NavDropdown.Item>
                             </NavDropdown>
                             <Nav.Item as="li">
                                 <Nav.Link href='#'>Contact</Nav.Link>
