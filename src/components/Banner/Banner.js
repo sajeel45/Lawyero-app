@@ -9,14 +9,14 @@ import Container from "react-bootstrap/esm/Container";
 import {FaChevronRight} from "react-icons/fa";
 
 const settings = {
-  dots: true,
-  autoplay:true,
-  focusOnSelect:true,
   infinite: true,
-  speed: 500,
   slidesToShow: 1,
   slidesToScroll: 1,
+  dots: true,
   arrows: true,
+  fade: true,
+  easing: "fade",
+  adaptiveHeight: true
 };
 
 const Banner = () => {
