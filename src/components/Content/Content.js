@@ -3,12 +3,14 @@ import Row from 'react-bootstrap/Row';
 // import Col from 'react-bootstrap/Col';
 import Banner from '../Banner/Banner';
 import "./Content.css";
+import Achievements from '../Achievements/Achievements';
 
 const Content = () =>{
     return (
         <Container fluid className="content-section">
 			<Row>
 				<Banner />
+				<Achievements />
 				</Row>
 		</Container>
     );

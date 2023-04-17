@@ -6,16 +6,12 @@ import banner2 from "../../assets/contentbanners/banner2.jpg";
 import banner3 from "../../assets/contentbanners/banner3.jpg";
 import "./Banner.css";
 import Container from "react-bootstrap/esm/Container";
-import {FaChevronRight} from "react-icons/fa";
+// import {FaChevronRight} from "react-icons/fa";
 
 const settings = {
   infinite: true,
   slidesToShow: 1,
   slidesToScroll: 1,
-  dots: true,
-  arrows: true,
-  fade: true,
-  easing: "fade",
   adaptiveHeight: true
 };
 
@@ -23,7 +19,7 @@ const Banner = () => {
   return (
     <section className="op-slogan-section op-title-wrapper dark-color-overlay-over-image">
         <div className="page-content-container">
-          <Slider {...settings} className="op-banner">
+          <Slider {...settings} autoplay="true" autoplaySpeed={3000} className="op-banner">
             <div className="item">
               <img src={banner1} alt="banner" />
                 <div class="carousel-caption">
@@ -48,7 +44,8 @@ const Banner = () => {
                   class="primary-button button-default btn-4 btn-4c"
                   href="http://bsmthemes.com/demo/lawyero/who-we-are/"
                 >
-                  Get Appointment <FaChevronRight />
+                  Get Appointment 
+                  {/* <FaChevronRight /> */}
                 </a>
                 </Container>
               </div>
