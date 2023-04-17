@@ -40,3 +40,9 @@
 .op-why-choose {
     margin-bottom: 30px;
 }
+.icon-wrapper img{
+    width: 70px;
+    border: 1px solid greenyellow;
+    padding: 5px;
+    margin-bottom:20px ;
+}
