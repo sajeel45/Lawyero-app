@@ -6,7 +6,11 @@ import banner2 from "../../assets/contentbanners/banner2.jpg";
 import banner3 from "../../assets/contentbanners/banner3.jpg";
 import "./Banner.css";
 import Container from "react-bootstrap/esm/Container";
+<<<<<<< HEAD
 import {FaChevronRight} from "react-icons/fa";
+=======
+import {FaArrowRight} from "react-icons/fa";
+>>>>>>> 113c18c3113abad1f62a2c70cea6ad56a17b99e7
 
 const settings = {
   infinite: true,
@@ -30,6 +34,7 @@ const Banner = () => {
                     href="http://bsmthemes.com/demo/lawyero/who-we-are/"
                   >
                     Find out More
+                    <span><FaArrowRight /></span>
                   </a>
                   </Container>
                 </div>
@@ -45,7 +50,11 @@ const Banner = () => {
                   href="http://bsmthemes.com/demo/lawyero/who-we-are/"
                 >
                   Get Appointment 
+<<<<<<< HEAD
                   <FaChevronRight />
+=======
+                  <span><FaArrowRight /></span>
+>>>>>>> 113c18c3113abad1f62a2c70cea6ad56a17b99e7
                 </a>
                 </Container>
               </div>
@@ -60,6 +69,7 @@ const Banner = () => {
                   href="http://bsmthemes.com/demo/lawyero/who-we-are/"
                 >
                   Find out More
+                  <span><FaArrowRight /></span>
                 </a>
                 </Container>
               </div>

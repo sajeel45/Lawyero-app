@@ -1,5 +1,4 @@
-import { Container } from "react-bootstrap";
-import Row from "react-bootstrap/Row";
+import { Container, Row, Col } from "react-bootstrap";
 import logo from './logo192.png'
 import "./Achievements.css";
 
@@ -24,7 +23,7 @@ const achievements = [
     title: "Awards And Achievements",
     description:
       "We at lawyero earned the best law firm award in 2017 with a success ratio of 99%.",
-  },
+  }
 ];
 
 const Achievements = () => {
@@ -32,9 +31,8 @@ const Achievements = () => {
     <>
       <Container className="overlap-medium panel-grid">
         <Row>
-          <div className="achievements-wrapper">
             {achievements.map((item, index) => (
-              <div className="achievement-wrapper" key={index}>
+              <Col lg="4" className="achievement-wrapper" key={index}>
                 <div className="op-why-choose-section-style-2">
                 <div className="op-why-choose">
 
@@ -49,9 +47,8 @@ const Achievements = () => {
                 </div>
               </div>
               </div>
-              </div>
+              </Col>
             ))}
-          </div>
         </Row>
       </Container>
     </>

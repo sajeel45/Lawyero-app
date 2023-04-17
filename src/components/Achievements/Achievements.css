@@ -1,18 +1,15 @@
-.row {
-    margin-right: -15px;
-    margin-left: -15px;
-}
 .achievements-wrapper{
     height: 100%;
-    padding: 0 100px;
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
 }
 .achievement-wrapper{
-    width: calc(33.3333% - ( 0.66666666666667 * 0px ) );
     background-color: #f5f5f5;
     padding: 40px 40px 31px 40px;
+}
+.achievement-wrapper:nth-of-type(2n){
+    background: #fafafa;
 }
 .overlap-medium{
     margin-top: -150px;
