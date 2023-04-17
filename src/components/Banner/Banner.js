@@ -6,7 +6,7 @@ import banner2 from "../../assets/contentbanners/banner2.jpg";
 import banner3 from "../../assets/contentbanners/banner3.jpg";
 import "./Banner.css";
 import Container from "react-bootstrap/esm/Container";
-// import {FaChevronRight} from "react-icons/fa";
+import {FaArrowRight} from "react-icons/fa";
 
 const settings = {
   infinite: true,
@@ -30,6 +30,7 @@ const Banner = () => {
                     href="http://bsmthemes.com/demo/lawyero/who-we-are/"
                   >
                     Find out More
+                    <span><FaArrowRight /></span>
                   </a>
                   </Container>
                 </div>
@@ -45,7 +46,7 @@ const Banner = () => {
                   href="http://bsmthemes.com/demo/lawyero/who-we-are/"
                 >
                   Get Appointment 
-                  {/* <FaChevronRight /> */}
+                  <span><FaArrowRight /></span>
                 </a>
                 </Container>
               </div>
@@ -60,6 +61,7 @@ const Banner = () => {
                   href="http://bsmthemes.com/demo/lawyero/who-we-are/"
                 >
                   Find out More
+                  <span><FaArrowRight /></span>
                 </a>
                 </Container>
               </div>

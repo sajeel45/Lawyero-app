@@ -52,6 +52,21 @@
 .op-banner .slick-track{
     width: 100%;
 }
+.carousel-caption a span{
+    right: 30%;
+    opacity: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+    font-size: 100%;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.carousel-caption a:hover span{
+    right: 20px;
+    opacity: 1;
+}
 /* .op-banner .item .carousel-caption {
     max-width: 1170px;
 } */
@@ -97,6 +112,9 @@
     -ms-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
+}
+.carousel-caption .primary-button:hover{
+    padding-right: 45px;
 }
 a {
     color: #14cab4;

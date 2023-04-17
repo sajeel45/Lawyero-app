@@ -10,9 +10,10 @@ const Content = () =>{
         <Container fluid className="content-section">
 			<Row>
 				<Banner />
-				<Achievements />
-				</Row>
+			</Row>
+			<Achievements />
 		</Container>
+
     );
 }
 export default Content;
