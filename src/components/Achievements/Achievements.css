@@ -37,11 +37,13 @@
 .op-why-choose {
     margin-bottom: 30px;
 }
-.icon-wrapper img{
-    width: 70px;
+.icon-wrapper{
+    margin-bottom:20px;
+}
+.icon-styling{
     border: 2px solid #63CAB5;
-    padding: 5px;
-    margin-bottom:20px ;
+    padding: 10px;    
+    font-weight:lighter ;
 }
 .description-wrapper p{
     margin: 0 0 18px;

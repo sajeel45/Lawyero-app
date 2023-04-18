@@ -15,57 +15,55 @@ const settings = {
   adaptiveHeight: true
 };
 
+const captions = [
+  {
+    id:1,
+    src:banner1,
+    heading:'Your Consultant for every legal Issue',
+    caption:'Find out More',
+    icon:<FaArrowRight />,
+    link:'http://bsmthemes.com/demo/lawyero/who-we-are/'
+  },
+  {
+    id:2,
+    src:banner2,
+    heading:'Get the legal help you are looking for!',
+    caption:'Get Appointment',
+    icon:<FaArrowRight />,
+    link:'http://bsmthemes.com/demo/lawyero/who-we-are/'
+  },
+  {
+    id:3,
+    src:banner3,
+    heading:'Your Consultant for every legal Issue',
+    caption:'Find out More',
+    icon:<FaArrowRight />,
+    link:'http://bsmthemes.com/demo/lawyero/who-we-are/'
+  }
+];
+
 const Banner = () => {
   return (
     <section className="op-slogan-section op-title-wrapper dark-color-overlay-over-image">
         <div className="page-content-container">
           <Slider {...settings} autoplay="true" autoplaySpeed={3000} className="op-banner">
-            <div className="item">
-              <img src={banner1} alt="banner" />
+            {captions.map((item,index)=>(
+            <div className="item" key={index}>
+              <img src={item.src} alt="banner" />
                 <div class="carousel-caption">
                 <Container>
-                  <h2 class="h1style">Your Consultant for every legal Issue</h2>
+                  <h2 class="h1style">{item.heading}</h2>
                   <a
                     class="primary-button button-default btn-4 btn-4c icon-arrow-right"
-                    href="http://bsmthemes.com/demo/lawyero/who-we-are/"
+                    href={item.link}
                   >
-                    Find out More
-                    <span><FaArrowRight /></span>
+                    {item.caption}
+                    <span>{item.icon}</span>
                   </a>
                   </Container>
                 </div>
-
             </div>
-            <div className="item">
-              <img src={banner2} alt="banner" />
-              <div class="carousel-caption">
-              <Container>
-                <h2 class="h1style">Get the legal help you are looking for!</h2>
-                <a
-                  class="primary-button button-default btn-4 btn-4c"
-                  href="http://bsmthemes.com/demo/lawyero/who-we-are/"
-                >
-                  Get Appointment 
-                  <span><FaArrowRight /></span>
-                </a>
-                </Container>
-              </div>
-            </div>
-            <div className="item">
-              <img src={banner3} alt="banner" />
-              <div class="carousel-caption">
-              <Container>
-                <h2 class="h1style">Your Consultant for every legal Issue</h2>
-                <a
-                  class="primary-button button-default btn-4 btn-4c icon-arrow-right"
-                  href="http://bsmthemes.com/demo/lawyero/who-we-are/"
-                >
-                  Find out More
-                  <span><FaArrowRight /></span>
-                </a>
-                </Container>
-              </div>
-            </div>
+            ))}
           </Slider>
         </div>
     </section>
