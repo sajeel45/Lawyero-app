@@ -46,14 +46,19 @@ const Achievements = () => {
               animation = "animate__fadeInDown";
             }
             return (
-                <Col
-                  lg="4"
-                  sm="12"
-                  md="6"
-                  className="achievement-wrapper"
-                  key={index}
+              <Col
+                lg="4"
+                sm="12"
+                md="6"
+                className="achievement-wrapper"
+                key={index}
+              >
+                <AnimationOnScroll
+                  key={item.id}
+                  animateIn={animation}
+                  duration={0.2}
+                  animateOnce="true"
                 >
-                  <AnimationOnScroll key={item.id} animateIn={animation} duration={0.2} animateOnce='true'>
                   <div className="op-why-choose-section-style-2">
                     <div className="op-why-choose">
                       <div className="icon-wrapper">
@@ -66,20 +71,12 @@ const Achievements = () => {
                         <p>{item.description}</p>
                       </div>
                     </div>
-              
                   </div>
-                  </AnimationOnScroll>
-                </Col>
-                
-              
+                </AnimationOnScroll>
+              </Col>
             );
-            
-            
           })}
-          
         </Row>
-        
-        
       </Container>
     </>
   );
