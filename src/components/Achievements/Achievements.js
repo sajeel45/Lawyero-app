@@ -41,12 +41,11 @@ const Achievements = () => {
           {achievements.map((item, index) => {
             let animation = "";
             if (index === 0 || index === 2) {
-              animation = "fadeUp";
+              animation = "animate__fadeInUp";
             } else if (index === 1) {
-              animation = "fadeDown";
+              animation = "animate__fadeInDown";
             }
             return (
-              <AnimationOnScroll key={item.id} animateIn={animation}>
                 <Col
                   lg="4"
                   sm="12"
@@ -54,6 +53,7 @@ const Achievements = () => {
                   className="achievement-wrapper"
                   key={index}
                 >
+                  <AnimationOnScroll key={item.id} animateIn={animation} duration={0.2} animateOnce='true'>
                   <div className="op-why-choose-section-style-2">
                     <div className="op-why-choose">
                       <div className="icon-wrapper">
@@ -66,12 +66,20 @@ const Achievements = () => {
                         <p>{item.description}</p>
                       </div>
                     </div>
+              
                   </div>
+                  </AnimationOnScroll>
                 </Col>
-              </AnimationOnScroll>
+                
+              
             );
+            
+            
           })}
+          
         </Row>
+        
+        
       </Container>
     </>
   );
