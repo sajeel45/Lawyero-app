@@ -12,7 +12,7 @@ const BottomHeader = () => {
     <div className="op-header">
       <Container>
         <Row>
-          <Col md="3" sm="6" className="op-logo-container">
+          <Col md="3" sm="12" className="op-logo-container">
             <a href="http://bsmthemes.com/demo/lawyero" className="op-logo">
               <img src={Logo} alt="Logo" />
             </a>

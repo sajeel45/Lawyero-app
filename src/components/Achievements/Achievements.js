@@ -56,7 +56,6 @@ const Achievements = () => {
                 <AnimationOnScroll
                   key={item.id}
                   animateIn={animation}
-                  duration={0.2}
                   animateOnce="true"
                 >
                   <div className="op-why-choose-section-style-2">

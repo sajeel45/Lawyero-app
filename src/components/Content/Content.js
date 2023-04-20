@@ -4,6 +4,7 @@ import Row from 'react-bootstrap/Row';
 import Banner from '../Banner/Banner';
 import "./Content.css";
 import Achievements from '../Achievements/Achievements';
+import Success from '../Success/Success';
 
 const Content = () =>{
     return (
@@ -12,6 +13,7 @@ const Content = () =>{
 				<Banner />
 			</Row>
 			<Achievements />
+			<Success />
 		</Container>
 
     );
