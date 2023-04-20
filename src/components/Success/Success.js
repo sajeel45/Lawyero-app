@@ -3,7 +3,7 @@ import { FaDollarSign } from "react-icons/fa";
 import { FaThumbsUp } from "react-icons/fa";
 import background from "../../assets/librarybackground/library.jpg";
 import "./Success.css";
-import { Row,Col } from "react-bootstrap";
+import { Container, Row,Col } from "react-bootstrap";
 
 const items = [
   {
@@ -28,26 +28,25 @@ const items = [
 
 const Success = () => {
   return (
-    <>
-          <Row>
-      {items.map((item, index) => (
-        
-            <Col lg="4" sm="12" md="6">
-              <div className="panel-wrapper" key={index} style={{backgroundImage:`url(${background})`}}>
-                <div className="panel-item-wrapper panel-grid-cell">
-                  <div className="panel-icon-wrapper">{item.icon}</div>
-                  <div className="panel-counter-wrapper">
-                    <span className="counter">{item.count}</span>
-                    <p className="panel-item-caption">{item.caption}</p>
-                  </div>
+    <div className="counter-wrapper dark-color-overlay-over-image" style={{backgroundImage:`url(${background})`}}>
+      <Container>
+        <Row>
+        {items.map((item, index) => (
+          <Col lg="4" sm="12" md="6" key={index} >
+            <div>
+              <div className="panel-item-wrapper panel-grid-cell">
+                <div className="panel-icon-wrapper">{item.icon}</div>
+                <div className="panel-counter-wrapper">
+                  <span className="counter">{item.count}</span>
+                  <p className="panel-item-caption">{item.caption}</p>
                 </div>
               </div>
-            </Col>
-          
-      ))}
-      </Row>
-    </>
-    
+            </div>
+          </Col>
+        ))}
+        </Row>
+      </Container>
+      </div>
   );
 };
 export default Success;
