@@ -8,6 +8,14 @@
     background-size: cover;
     padding: 70px 0px 70px 0px;
 }
+.dividerContainer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 3;
+    height: 20px;
+    width: 100%;
+}
 .dark-color-overlay-over-image:before {
     content: '';
     position: absolute;

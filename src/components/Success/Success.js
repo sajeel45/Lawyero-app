@@ -1,6 +1,7 @@
 import { FaHandshake } from "react-icons/fa";
 import { FaDollarSign } from "react-icons/fa";
 import { FaThumbsUp } from "react-icons/fa";
+import { ReactComponent as Divider } from "../../assets/divider-white.svg";
 import background from "../../assets/librarybackground/library.jpg";
 import "./Success.css";
 import { Container, Row,Col } from "react-bootstrap";
@@ -46,6 +47,9 @@ const Success = () => {
         ))}
         </Row>
       </Container>
+      <div className="dividerContainer">
+        <Divider />
+      </div>
       </div>
   );
 };
