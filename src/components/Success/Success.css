@@ -2,7 +2,7 @@
     z-index: 2;
     position: relative;
 }
-.counter-wrapper{
+.countent-wrapper{
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
@@ -13,7 +13,7 @@
     bottom: 0;
     left: 0;
     z-index: 3;
-    height: 20px;
+    min-height: 18px;
     width: 100%;
 }
 .dark-color-overlay-over-image:before {

@@ -1,7 +1,7 @@
 import { FaHandshake } from "react-icons/fa";
 import { FaDollarSign } from "react-icons/fa";
 import { FaThumbsUp } from "react-icons/fa";
-import { ReactComponent as Divider } from "../../assets/divider-white.svg";
+import Divider from "../../assets/divider-white.svg";
 import background from "../../assets/librarybackground/library.jpg";
 import "./Success.css";
 import { Container, Row,Col } from "react-bootstrap";
@@ -29,7 +29,7 @@ const items = [
 
 const Success = () => {
   return (
-    <div className="counter-wrapper dark-color-overlay-over-image" style={{backgroundImage:`url(${background})`}}>
+    <div className="countent-wrapper dark-color-overlay-over-image" style={{backgroundImage:`url(${background})`}}>
       <Container>
         <Row>
         {items.map((item, index) => (
@@ -47,8 +47,7 @@ const Success = () => {
         ))}
         </Row>
       </Container>
-      <div className="dividerContainer">
-        <Divider />
+      <div className="dividerContainer" style={{backgroundImage:`url(${Divider})`}}>
       </div>
       </div>
   );

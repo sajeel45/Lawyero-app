@@ -5,7 +5,7 @@ import banner1 from "../../assets/contentbanners/banner1.jpg";
 import banner2 from "../../assets/contentbanners/banner2.jpg";
 import banner3 from "../../assets/contentbanners/banner3.jpg";
 import "./Banner.css";
-import Container from "react-bootstrap/esm/Container";
+import {Container,Row} from "react-bootstrap";
 import {FaArrowRight} from "react-icons/fa";
 
 const settings = {
@@ -44,6 +44,7 @@ const captions = [
 
 const Banner = () => {
   return (
+    <Row>
     <section className="op-slogan-section op-title-wrapper dark-color-overlay-over-image">
         <div className="page-content-container">
           <Slider {...settings} autoplay="true" autoplaySpeed={3000} className="op-banner">
@@ -67,6 +68,7 @@ const Banner = () => {
           </Slider>
         </div>
     </section>
+    </Row>
   );
 };
 export default Banner;
