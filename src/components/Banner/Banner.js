@@ -55,7 +55,7 @@ const Banner = () => {
                 <Container>
                   <h2 class="h1style">{item.heading}</h2>
                   <a
-                    class="primary-button button-default btn-4 btn-4c icon-arrow-right"
+                    class="primary-button button-default"
                     href={item.link}
                   >
                     {item.caption}

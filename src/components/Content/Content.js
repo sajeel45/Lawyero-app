@@ -2,6 +2,7 @@ import Banner from "../Banner/Banner";
 import "./Content.css";
 import Achievements from "../Achievements/Achievements";
 import Success from "../Success/Success";
+import About from "../About/About";
 
 const Content = () => {
   return (
@@ -9,6 +10,7 @@ const Content = () => {
       <Banner />
       <Achievements />
       <Success />
+      <About />
     </div>
   );
 };

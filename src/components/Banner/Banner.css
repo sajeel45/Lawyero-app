@@ -63,7 +63,7 @@
     -moz-transition: all 0.3s;
     transition: all 0.3s;
 }
-.carousel-caption a:hover span{
+.carousel-caption a.primary-button:hover span{
     right: 20px;
     opacity: 1;
 }
@@ -97,7 +97,7 @@
     border: 2px solid #14cab4;
     text-decoration: none;
 } */
-.primary-button {
+a.primary-button {
     padding: 14px 28px;
     color: #ffffff;
     background-color: #14cab4;
@@ -116,12 +116,13 @@
 .carousel-caption .primary-button:hover{
     padding-right: 45px;
 }
-a {
+a{
     color: #14cab4;
     text-decoration: none;
 }
-a:hover{
+a.primary-button:hover{
     color: #fff;
+    background-color: #14cab4;
 }
 .primary-button:before{
     right: 30%;

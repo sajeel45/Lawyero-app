@@ -1,0 +1,107 @@
+.about-section-description-wrapper{
+    padding-right: 40px;
+}
+.about-section-description-wrapper h2{
+    color: #14cab4;
+    position: relative;
+    line-height: 1.6;
+    margin-bottom: 50px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 0;
+    font-weight: 700;
+}
+.about-section-description-wrapper p{
+    margin: 0 0 18px;
+}
+.about-section-description-wrapper h2::before{
+    width: 150px;
+    height: 3px;
+    background-color: #313131;
+    position: absolute;
+    content: '';
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 0;
+}
+.about-section-description-wrapper h2::after{
+    content: "";
+    display: table;
+    clear: both;
+    width: 70px;
+    height: 3px;
+    background-color: #14cab4;
+    position: absolute;
+    content: '';
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 0;
+}
+.about-section-content-wrapper{
+    display: flex;
+    margin-top: 95px;
+}
+a.button-style:hover{
+    background-color: #fff;
+    color: #14cab4;
+    padding-right: 45px;
+}
+a.button-style span:before{
+    right: 30%;
+    opacity: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+a.button-style span{
+    right: 30%;
+    opacity: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+    font-size: 100%;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+a.button-style:hover span{
+    right: 20px;
+    opacity: 1;
+}
+a.button{
+    float: left;
+}
+.button-style{
+    padding: 14px 28px;
+    color: #ffffff;
+    background-color: #14cab4;
+    font-weight: bold;
+    margin-top: 10px;
+    position: relative;
+    text-transform: uppercase;
+    border: 2px solid #14cab4;
+    display: inline-block;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+
+}
+.button-style:after{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.about-section-image-wrapper img{
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+}
+
+
