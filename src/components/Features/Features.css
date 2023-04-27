@@ -27,3 +27,25 @@
 .features-description-wrapper p{
     margin: 0 0 18px;
 }
+.features-bottom-wrapper{
+    background-color: #1a2431;
+    margin-left: -113px;
+    margin-right: -113px;
+    padding-left: 113px;
+    padding-right: 113px;
+    border-left: 0px;
+    border-right: 0px;
+    padding-bottom: 10px;
+}
+.features-bottom-wrapper span{
+    color: white;
+    display: block;
+    padding-top: 20px;
+    margin: 9px 0;
+    font-size: 20px;
+}
+.contact-btn{
+    float: right;
+    margin-top: 0;
+    padding: 10px 20px;
+}

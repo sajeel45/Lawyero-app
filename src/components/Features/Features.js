@@ -55,7 +55,16 @@ const Features = () => {
                     ))}
                 </div>
                 
-                <div className='features-bottom-wrapper'></div>
+                <div className='features-bottom-wrapper'>
+                    <Row>
+                        <Col sm='9' xs='12'>
+                            <span>Get the consultation For Most Complex Legal Issues.</span>
+                        </Col>
+                        <Col sm='3' xs='12' className='contact-btn'>
+                            <a href='#' className='primary-button'>Contact Us</a>
+                        </Col>
+                    </Row>
+                </div>
             </div>
             </Container>
         </>
