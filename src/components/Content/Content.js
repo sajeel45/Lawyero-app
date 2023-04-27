@@ -3,6 +3,7 @@ import "./Content.css";
 import Achievements from "../Achievements/Achievements";
 import Success from "../Success/Success";
 import About from "../About/About";
+import Features from "../Features/Features";
 
 const Content = () => {
   return (
@@ -11,6 +12,7 @@ const Content = () => {
       <Achievements />
       <Success />
       <About />
+      <Features />
     </div>
   );
 };
