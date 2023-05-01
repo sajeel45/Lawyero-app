@@ -1,4 +1,4 @@
-import { FaCar } from 'react-icons/fa';
+import { FaCar, FaSwimmer } from 'react-icons/fa';
 import { FaChild } from 'react-icons/fa';
 import { FaEuroSign } from 'react-icons/fa';
 import { FaWallet } from 'react-icons/fa';
@@ -55,7 +55,7 @@ const items = [
     {
         id:8,
         title:'Drowning Law',
-        icon:'',
+        icon:<FaSwimmer size='40px' color='white'/>,
         link:'http://bsmthemes.com/demo/lawyero/our-services/business-law/',
     }
 ]
@@ -63,24 +63,21 @@ const Practice = () =>{
     return(
         <>
         <Container>
-            <Row>
-                <>
             <div className='practice-section-wrapper'>
                 <div className='practice-section-heading-wrapper'>
                     <h2 className='h2-style1'>Practice Areas</h2>
                 </div>
-                <div className='practice-section-items-wrapper'>
-                
-                    {/* <Col 
-                        lg="4"
+                <Row>
+                    {items.map((item,index)=>(
+                        <Col
+                        lg="3"
                         sm="12"
                         md="6"
                         className='practice-section-items-wrapper'
-                    > 
+                        key={index}
+                    >
                     <AnimationOnScroll animateIn='animate__flipInY'>
-                    */}
-                    {items.map((item,index)=>(
-                    <div className='practice-section-item-wrapper' key={index}>
+                    <div className='practice-section-item-wrapper'>
                         <a href={item.link} >
                         <div className='practice-section-icon-wrapper'>
                             <span>{item.icon}</span>
@@ -90,17 +87,12 @@ const Practice = () =>{
                         </div>
                         </a>
                     </div>
+                    </AnimationOnScroll>
+                     </Col>
+                    //  {index == 3 ? </Row><Row> : ""}
                     ))}
-                    {/* </AnimationOnScroll>
-                     </Col> */}
-                    
-                   
+                     </Row>
                 </div>
-                
-            </div>
-            
-            </>
-            </Row>
             </Container>
 
         </>

@@ -6,11 +6,10 @@
     background-size: cover;
 }   
 .features-wrapper{
-    padding: 67px 50px 30px 20px;
+    padding: 67px 0 30px;
     
 }
 .features-main-wrapper{   
-    border: 1px solid black;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
