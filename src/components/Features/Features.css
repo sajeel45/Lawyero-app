@@ -44,8 +44,11 @@
     margin: 9px 0;
     font-size: 20px;
 }
+.feature-bottom-wrapper{
+    padding-left: 50px;
+}
 .contact-btn{
     float: right;
     margin-top: 0;
-    padding: 10px 20px;
+    padding: 10px 40px;
 }

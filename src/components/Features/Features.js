@@ -34,7 +34,7 @@ const FeaturesItems = [
 const Features = () => {
     return(
         <>
-        <Container>
+        <>
             <div className='features-wrapper'>
                 <div className='features-main-wrapper'>
                     <div className='features-image-wrapper panel-grid-cell' style={{backgroundImage:`url(${featureBackground})`}}>
@@ -56,7 +56,7 @@ const Features = () => {
                 </div>
                 
                 <div className='features-bottom-wrapper'>
-                    <Row>
+                    <Row className='feature-bottom-wrapper'>
                         <Col sm='9' xs='12'>
                             <span>Get the consultation For Most Complex Legal Issues.</span>
                         </Col>
@@ -66,7 +66,7 @@ const Features = () => {
                     </Row>
                 </div>
             </div>
-            </Container>
+            </>
         </>
     )
 }
