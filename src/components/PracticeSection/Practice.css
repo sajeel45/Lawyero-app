@@ -14,15 +14,15 @@
 }
 .practice-section-items-wrapper{
     align-items: center;
-    background-color: #13cab4;
 }
-.practice-section-items-wrapper:nth-of-type(2),
-.practice-section-items-wrapper:nth-of-type(4),
-.practice-section-items-wrapper:nth-of-type(5),
-.practice-section-items-wrapper:nth-of-type(7){
+.practice-section-items-wrapper:nth-of-type(2) .practice-section-item-wrapper,
+.practice-section-items-wrapper:nth-of-type(4) .practice-section-item-wrapper,
+.practice-section-items-wrapper:nth-of-type(5) .practice-section-item-wrapper,
+.practice-section-items-wrapper:nth-of-type(7) .practice-section-item-wrapper{
     background-color: #1a2431;
 }
 .practice-section-item-wrapper{
+    background-color: #13cab4;
     width: 100%;
     padding: 50px 40px;
     margin-bottom: 24px;
