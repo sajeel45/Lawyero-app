@@ -41,8 +41,6 @@
 .practice-section-items-wrapper{
     align-items: center;
     margin-bottom: 24px;
-    
-    padding: 0;
 }
 .practice-section-items-wrapper:last-child{
     margin-right: 0;
@@ -59,11 +57,11 @@
     background-color: #1a2431;
 } */
 .practice-section-item-wrapper{
-    /* background-color: #13cab4; */
     width: 100%;
+}
+.practice-section-item-wrapper a{
     padding: 40px 25px;
-    
-    
+    display: block;
 }
 .practice-section-item-wrapper:hover{
     box-shadow: 0 6px 13px rgba(26, 36, 49, 0.35);

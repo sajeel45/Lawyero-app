@@ -69,11 +69,9 @@ const Practice = () =>{
                         md="6"
                         className='practice-section-items-wrapper'
                         key={index}
-                        style={[1,3,4,6].includes(index) ? {backgroundColor:'#1a2431'}:{backgroundColor:'#13cab4'}}
-                        
                     >
                     <AnimationOnScroll animateIn='animate__flipInY' animateOnce='true'>
-                    <div className='practice-section-item-wrapper'>
+                    <div className='practice-section-item-wrapper' style={[1,3,4,6].includes(index) ? {backgroundColor:'#1a2431'}:{backgroundColor:'#13cab4'}}>
                         <a href={item.link} >
                         <div className='practice-section-icon-wrapper'>
                             <span>{item.icon}</span>
