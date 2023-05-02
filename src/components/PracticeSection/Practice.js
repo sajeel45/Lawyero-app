@@ -1,10 +1,4 @@
-import { FaCar, FaSwimmer } from 'react-icons/fa';
-import { FaChild } from 'react-icons/fa';
-import { FaEuroSign } from 'react-icons/fa';
-import { FaWallet } from 'react-icons/fa';
-import { FaBullhorn } from 'react-icons/fa';
-import { FaBalanceScale } from 'react-icons/fa';
-import { FaFutbol } from 'react-icons/fa';
+import { FaCar, FaSwimmer,FaChild,FaEuroSign,FaWallet,FaBullhorn,FaBalanceScale,FaFutbol } from 'react-icons/fa';
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 import './Practice.css';
 import { Container,Row,Col } from 'react-bootstrap';

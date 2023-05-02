@@ -1,7 +1,5 @@
 .features-image-wrapper{
-    border: 1px solid black;
-    height: 400px;
-    width: 400px;
+    width: 100%;
     background-position: center center;
     background-size: cover;
 }   
@@ -11,8 +9,7 @@
 }
 .features-main-wrapper{   
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    
 }
 .features-items-wrapper{
     background-color: #f5f5f5;

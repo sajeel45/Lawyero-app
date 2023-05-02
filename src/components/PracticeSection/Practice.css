@@ -24,11 +24,12 @@
 .practice-section-item-wrapper{
     background-color: #13cab4;
     width: 100%;
-    padding: 50px 40px;
+    padding: 40px 25px;
     margin-bottom: 24px;
 }
 .practice-section-item-wrapper:hover{
     box-shadow: 0 6px 13px rgba(26, 36, 49, 0.35);
+    transition: all 0.5s ease-in-out;
 }
 .practice-section-item-wrapper:nth-of-type(2n){
     background-color: #1A2431;
