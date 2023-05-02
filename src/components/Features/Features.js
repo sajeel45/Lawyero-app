@@ -42,10 +42,8 @@ const Features = () => {
                             <div className='icon-wrapper'>
                                 <span>{item.icon}</span>
                             </div>
-                            <div className='features-title-wrapper'>
+                            <div className='features-content-wrapper'>
                                 <h4>{item.title}</h4>
-                            </div>
-                            <div className='features-description-wrapper'>
                                 <p>{item.description}</p>
                             </div>
                         </div>

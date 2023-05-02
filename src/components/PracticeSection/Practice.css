@@ -1,5 +1,5 @@
 .practice-section-wrapper{
-    padding: 50px 20px;
+    padding: 50px 0;
 }
 .h2-style1{
     color: #13cab4;
@@ -11,42 +11,6 @@
     margin-top: 0;
     font-weight: 700;
     text-transform: capitalize;
-}
-.practice-section-items-wrapper{
-    align-items: center;
-}
-.practice-section-items-wrapper:nth-of-type(2) .practice-section-item-wrapper,
-.practice-section-items-wrapper:nth-of-type(4) .practice-section-item-wrapper,
-.practice-section-items-wrapper:nth-of-type(5) .practice-section-item-wrapper,
-.practice-section-items-wrapper:nth-of-type(7) .practice-section-item-wrapper{
-    background-color: #1a2431;
-}
-.practice-section-item-wrapper{
-    background-color: #13cab4;
-    width: 100%;
-    padding: 40px 25px;
-    margin-bottom: 24px;
-}
-.practice-section-item-wrapper:hover{
-    box-shadow: 0 6px 13px rgba(26, 36, 49, 0.35);
-    transition: all 0.5s ease-in-out;
-}
-.practice-section-item-wrapper:nth-of-type(2n){
-    background-color: #1A2431;
-}
-.practice-section-content-wrapper p{
-    text-align: center;
-    font-size: 24px;
-    color: #ffffff;
-    display: table;
-    width: 100%;
-    margin: 0 0 18px;
-    font-weight: 500;
-}
-.practice-section-icon-wrapper{
-    margin-bottom: 21px;
-    text-align: center;
-    padding-top: 40px;
 }
 .h2-style1:before{
     width: 150px;
@@ -72,4 +36,50 @@
     right: 0;
     margin: auto;
     bottom: 0;
+}
+
+.practice-section-items-wrapper{
+    align-items: center;
+    margin-bottom: 24px;
+    
+    padding: 0;
+}
+.practice-section-items-wrapper:last-child{
+    margin-right: 0;
+}
+.practice-section-item-wrapper{
+    margin-right: 24px;   
+    
+}
+
+/* .practice-section-items-wrapper:nth-of-type(2) .practice-section-item-wrapper,
+.practice-section-items-wrapper:nth-of-type(4) .practice-section-item-wrapper,
+.practice-section-items-wrapper:nth-of-type(5) .practice-section-item-wrapper,
+.practice-section-items-wrapper:nth-of-type(7) .practice-section-item-wrapper{
+    background-color: #1a2431;
+} */
+.practice-section-item-wrapper{
+    /* background-color: #13cab4; */
+    width: 100%;
+    padding: 40px 25px;
+    
+    
+}
+.practice-section-item-wrapper:hover{
+    box-shadow: 0 6px 13px rgba(26, 36, 49, 0.35);
+    transition: all 0.5s ease-in-out;
+}
+.practice-section-content-wrapper p{
+    text-align: center;
+    font-size: 24px;
+    color: #ffffff;
+    display: table;
+    width: 100%;
+    margin: 0 0 18px;
+    font-weight: 500;
+}
+.practice-section-icon-wrapper{
+    margin-bottom: 21px;
+    text-align: center;
+    padding-top: 40px;
 }
