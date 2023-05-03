@@ -5,6 +5,7 @@ import Success from "../Success/Success";
 import About from "../About/About";
 import Features from "../Features/Features";
 import Practice from "../PracticeSection/Practice";
+import News from "../News/News";
 
 const Content = () => {
   return (
@@ -15,6 +16,7 @@ const Content = () => {
       <About />
       <Features />
       <Practice />
+      <News />
     </div>
   );
 };

@@ -1,5 +1,5 @@
 
-import { FaPhoneAlt, FaBriefcase, FaCoffee, FaLink} from 'react-icons/fa';
+import { FaPhoneAlt, FaBriefcase, FaCoffee, FaLink, FaArrowRight} from 'react-icons/fa';
 import {Container,Row,Col} from 'react-bootstrap';
 import featureBackground from '../../assets/features/feature_bg.jpg';
 import './Features.css';
@@ -59,7 +59,7 @@ const Features = () => {
                                 <span>Get the consultation For Most Complex Legal Issues.</span>
                             </Col>
                             <Col sm='3' xs='12' className='contact-btn'>
-                                <a href='#' className='primary-button'>Contact Us</a>
+                                <a href='#contact' className='primary-button button-style'>Contact Us<span><FaArrowRight/></span></a>
                             </Col>
                         </Row>
                     </Container>
