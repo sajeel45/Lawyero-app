@@ -53,7 +53,7 @@ const newsItems = [
     description: "Five Things To Consider After An Accident",
     date: "Dec, 23 2017",
     link: "http://bsmthemes.com/demo/lawyero/five-things-to-consider-after-an-accident-2/",
-  }
+  },
 ];
 
 const News = () => {
@@ -61,7 +61,7 @@ const News = () => {
     <>
       <div
         className="divider-gray"
-        style={{ backgroundImage: `url(${DividerGray})`, minHeight:'56.3px' }}
+        style={{ backgroundImage: `url(${DividerGray})`, minHeight: "56.3px" }}
       ></div>
       <div className="news-wrapper">
         <div className="news-heading-wrapper">
@@ -86,21 +86,29 @@ const News = () => {
                     </div>
                   </div>
                 </div>
-                
               </Col>
-              
             ))}
             <div className="news-button-wrapper col-xs-12 text-center">
-                    <a href="http://bsmthemes.com/demo/lawyero/blog/" className="secondary-button">Read More Posts<span><FaArrowRight/></span></a>
-                </div>
+              <a
+                href="http://bsmthemes.com/demo/lawyero/blog/"
+                className="secondary-button"
+              >
+                Read More Posts
+                <span>
+                  <FaArrowRight />
+                </span>
+              </a>
+            </div>
           </Row>
         </Container>
-        
       </div>
       <div
-          className="divider-gray-bottom"
-          style={{ backgroundImage: `url(${DividerGrayBottom})`,minHeight:'56.5px'}}
-        ></div>
+        className="divider-gray-bottom"
+        style={{
+          backgroundImage: `url(${DividerGrayBottom})`,
+          minHeight: "56.5px",
+        }}
+      ></div>
     </>
   );
 };
