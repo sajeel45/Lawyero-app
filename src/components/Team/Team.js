@@ -57,7 +57,7 @@ const Team = () =>{
                 <h2 className='h2-style1'>Our Team</h2>
             </div>
             <div className='team-section-main-wrapper'>
-                <Slider slidesPerRow={4} slidesToScroll={1} arrows={true}>
+                <Slider slidesPerRow={4} slidesToScroll={1} arrows={true} accessibility='true'>
                     {members.map((member,index)=>(
                 <div className='team-section-item-wrapper' key={index}>
                     <a href={member.link}>
