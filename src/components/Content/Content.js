@@ -6,6 +6,7 @@ import About from "../About/About";
 import Features from "../Features/Features";
 import Practice from "../PracticeSection/Practice";
 import News from "../News/News";
+import Team from "../Team/Team";
 
 const Content = () => {
   return (
@@ -17,6 +18,7 @@ const Content = () => {
       <Features />
       <Practice />
       <News />
+      <Team />
     </div>
   );
 };
