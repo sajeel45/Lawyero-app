@@ -61,7 +61,7 @@ const News = () => {
     <>
       <div
         className="divider-gray"
-        style={{ backgroundImage: `url(${DividerGray})`, minHeight: "56.3px" }}
+        style={{ backgroundImage: `url(${DividerGray})`}}
       ></div>
       <div className="news-wrapper">
         <div className="news-heading-wrapper">
@@ -70,7 +70,7 @@ const News = () => {
         <Container>
           <Row>
             {newsItems.map((item, index) => (
-              <Col lg="3" md="6" sm="12">
+              <Col lg="4" md="6" sm="12">
                 <div className="news-main-wrapper" key={index}>
                   <div className="news-item-wrapper">
                     <div className="news-image-wrapper">
@@ -105,8 +105,7 @@ const News = () => {
       <div
         className="divider-gray-bottom"
         style={{
-          backgroundImage: `url(${DividerGrayBottom})`,
-          minHeight: "56.5px",
+          backgroundImage: `url(${DividerGrayBottom})`
         }}
       ></div>
     </>

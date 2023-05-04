@@ -1,3 +1,45 @@
 .team-section-wrapper{
-    margin-top: 100px;
+    margin-left: -66px;
+    margin-right: -66px;
+    padding-left: 66px;
+    padding-right: 66px;
+    border-left: 0px;
+    border-right: 0px;
+}
+.team-image-wrapper img{
+    width: 280px;
+}
+.team-content-wrapper{
+    width: 280px;
+    padding: 10px 0;
+    border-bottom: 2px solid #63BAC5;
+}
+.team-content-wrapper span{
+    text-align: center;
+}
+.member-name-wrapper span{
+    display: block;
+    text-align: center;
+    font-size: 24px;
+    font-style: italic;
+    color: #63BAC5;
+}
+.member-specialization-wrapper span{
+    display: block;
+    text-align: center;
+    font-style: italic;
+    color: #63BAC5;
+}
+
+.team-section-main-wrapper{
+    padding: 0 75px;
+}
+.svg-style{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 45px;
+    height: 45px;
+    z-index: 3;
+    min-height: 45px;
 }
