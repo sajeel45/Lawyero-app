@@ -56,10 +56,10 @@ const Features = () => {
                     <Container>
                         <Row className='feature-bottom-wrapper'>
                             <Col sm='9' xs='12'>
-                                <span>Get the consultation For Most Complex Legal Issues.</span>
+                                <p>Get the consultation For Most Complex Legal Issues.</p>
                             </Col>
                             <Col sm='3' xs='12' className='contact-btn'>
-                                <a href='#contact' className='primary-button button-style'>Contact Us<span><FaArrowRight/></span></a>
+                                <a href='#contact' className='contact-button'>Contact Us<span><FaArrowRight/></span></a>
                             </Col>
                         </Row>
                     </Container>

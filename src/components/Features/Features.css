@@ -43,11 +43,50 @@
     padding-bottom: 10px;
 }
 .features-bottom-wrapper span{
-    color: white;
-    display: block;
-    padding-top: 20px;
-    margin: 9px 0;
+    color: #63CAB5;
     font-size: 20px;
+    display: block;
+
+}
+.feature-bottom-wrapper p{
+    color: white;
+    font-weight: 300;
+    font-size: 20px;
+    padding-top: 20px;
+}
+a.contact-button span{
+    right: 30%;
+    opacity: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+    font-size: 100%;
+    transition: all 0.3s;
+}
+.contact-button:hover span{
+    opacity: 1;
+    right: 20px;
+}
+a.contact-button:hover{
+    background-color: #1a2431;
+    color: #63CAB5;
+    border: 2px solid #63CAB5;
+    padding-right: 45px;
+}
+a.contact-button span:before{
+    right: 30%;
+    opacity: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+    font-size: 100%;
+    transition: all 0.3s;
+}
+a.contact-button span:after{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    transition: all 0.3s;
 }
 .feature-bottom-wrapper{
     padding-left: 50px;
@@ -55,5 +94,14 @@
 .contact-btn{
     float: right;
     margin-top: 0;
-    padding: 10px 40px;
+    
+}
+.contact-button{
+    padding: 14px 28px;
+    background-color: #63CAB5;
+    color: #f5f5f5;
+    top: 40%;
+    position: relative;
+    text-transform: uppercase;
+    font-weight: 700;
 }
