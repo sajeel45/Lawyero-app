@@ -8,7 +8,7 @@
 }
 .news-item-wrapper:hover{
     transition: all 0.5 ease-in-out;
-    transform: scale(0.9);
+    
 }
 .news-content-wrapper{
     background-color: #fafafa;
