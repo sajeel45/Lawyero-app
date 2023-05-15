@@ -7,6 +7,7 @@ import Features from "../Features/Features";
 import Practice from "../PracticeSection/Practice";
 import News from "../News/News";
 import Team from "../Team/Team";
+import Library from "../Library/Library";
 
 const Content = () => {
   return (
@@ -19,6 +20,7 @@ const Content = () => {
       <Practice />
       <News />
       <Team />
+      <Library />
     </div>
   );
 };
