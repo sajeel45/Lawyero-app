@@ -29,7 +29,7 @@ const items = [
 
 const Success = () => {
   return (
-    <div className="countent-wrapper dark-color-overlay-over-image" style={{backgroundImage:`url(${background})`}}>
+    <div className="content-wrapper dark-color-overlay-over-image" style={{backgroundImage:`url(${background})`}}>
       <Container>
         <Row>
         {items.map((item, index) => (
