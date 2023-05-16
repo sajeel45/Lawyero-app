@@ -50,14 +50,24 @@ const members = [
 ]
 
 const Team = () =>{
+
+    var settings = {
+        dots: false,
+        infinite: true,
+        arrows: true,
+        speed: 500,
+        slidesToShow: 4,
+        slidesToScroll: 1
+    };
+
     return(
-        <>
+        <Container>
         <div className='team-section-wrapper'>
             <div className='team-section-heading'>
                 <h2 className='h2-style1'>Our Team</h2>
             </div>
             <div className='team-section-main-wrapper'>
-                <Slider slidesPerRow={4} slidesToScroll={1} arrows={true} accessibility='true'>
+                <Slider {...settings}>
                     {members.map((member,index)=>(
                 <div className='team-section-item-wrapper' key={index}>
                     <a href={member.link}>
@@ -88,7 +98,7 @@ const Team = () =>{
             </div>
             
         </div>
-        </>
+        </Container>
     )
 }
 export default Team;
