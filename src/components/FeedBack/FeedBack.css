@@ -1,0 +1,27 @@
+.feedback-section-wrapper{
+    padding: 100px 0px 75px 0px;
+
+}
+.feedback-divider{
+    min-height: 20px;
+}
+.h2-style2 {
+    color: #ffffff;
+    position: relative;
+    line-height: 1.6;
+    margin-bottom: 50px;
+    padding-bottom: 5px;
+    text-transform: capitalize;
+    text-align: center;
+}
+.h2-style2:before {
+    position: absolute;
+    content: '';
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 0;
+    width: 150px;
+    height: 3px;
+    background-color: #ffffff;
+}
