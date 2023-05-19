@@ -10,6 +10,7 @@ import Team from "../Team/Team";
 import Library from "../Library/Library";
 import Questions from "../Questions/Questions";
 import Feedback from "../FeedBack/FeedBack";
+import Contact from "../Contact/Contact";
 
 const Content = () => {
   return (
@@ -25,6 +26,7 @@ const Content = () => {
       <Library />
       <Questions />
       <Feedback />
+      <Contact />
     </div>
   );
 };

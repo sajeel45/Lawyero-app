@@ -6,8 +6,12 @@
     border-left: 0px;
     border-right: 0px;
 }
+.team-image-wrapper{
+    position: relative;
+}
 .team-image-wrapper img{
     width: 280px;
+    
 }
 .team-content-wrapper{
     width: 280px;
@@ -36,10 +40,63 @@
 }
 .svg-style{
     position: absolute;
+    top: 0;
+    left: 0;
+    width: 45px;
+    height: 45px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.svg-style-bottom{
+    position: absolute;
     bottom: 0;
     right: 0;
     width: 45px;
-    height: 45px;
-    z-index: 3;
-    min-height: 45px;
+    height: 44px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.team-section-main-wrapper .slick-prev{
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 20px;
+    height: 20px;
+    padding: 10;
+    cursor: pointer;
+    color: black;
+    border: none;
+    outline: none;
+    background-color: black;
+    left: -50px;
+}
+.team-section-main-wrapper .slick-next {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 20px;
+    height: 20px;
+    padding: 10;
+    cursor: pointer;
+    color: black;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    right: -50px;
+}
+
+.team-image-wrapper .team-member-image:before{
+    position: absolute;
+    transition: all 0.5s ease;
+    width: 0%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+}
+.team-image-wrapper:hover .team-member-image:before{
+    width: 100%;
+    transition: all 0.5s ease;
 }

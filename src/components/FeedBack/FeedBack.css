@@ -3,7 +3,11 @@
 
 }
 .feedback-divider{
-    min-height: 20px;
+    left: 0;
+    z-index: 3;
+    min-height: 16px;
+    width: 100%;
+    position: absolute;
 }
 .h2-style2 {
     color: #ffffff;
@@ -25,3 +29,67 @@
     height: 3px;
     background-color: #ffffff;
 }
+.company-name-wrapper h4{
+    color: #ffffff;
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+}
+.feedback-slider-wrapper{
+    margin-top: 100px;
+}
+.customer-designation-wrapper p{
+    color: #ffffff;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.feedback-wrapper p{
+    color: #ffffff;
+    padding: 0px 40px;
+    font-style: italic;
+    margin: 0 0 18px;
+}
+.customer-name-wrapper{
+    color: #ffffff;
+    text-align: center;
+}
+.customer-image-wrapper img{
+    width: 100px;
+    border-radius: 50%;
+    border: 4px solid white;
+    
+}
+.customer-image-wrapper{
+    margin-bottom: 20px;
+    margin: auto;
+    width: 10%;
+}
+.customer-image-wrapper{
+    text-align: center;
+}
+.feedback-slider-wrapper .slick-prev, .slick-next {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 50px;
+    padding: 10;
+    cursor: pointer;
+    color: white;
+    border: none;
+    outline: none;
+    background: inherit;
+}
+
+.feedback-slider-wrapper .slick-prev{
+    left: -50px;
+}
+.feedback-slider-wrapper .slick-next{
+    right: -50px;
+}
+
+/* .slick-prev, .slick-next:hover{
+    background-color: black;
+} */

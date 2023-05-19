@@ -9,6 +9,7 @@ import cornerBottom from '../../assets/corner-bottom.svg';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import feedbackDivider from "../../assets/feedbackdivider.svg";
 import './Team.css';
 
 const members = [
@@ -75,10 +76,10 @@ const Team = () =>{
                         <div className='svg-style' style={{backgroundImage: `url(${cornerEdge})`}}>
                             
                         </div>
-                        <div>
+                        <div  className='team-member-image'>  
                         <img src={member.img} alt='teamMember'/>
                         </div>
-                        <div style={{backgroundImage: `url(${cornerBottom})`}}></div>
+                        <div style={{backgroundImage: `url(${cornerBottom})`}} className='svg-style-bottom'></div>
                     </div>
                     <div className='team-content-wrapper'>
                         
