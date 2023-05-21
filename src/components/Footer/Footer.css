@@ -1,0 +1,48 @@
+.footer-wrapper{
+    padding: 100px 100px;
+    background-color: #1A2431;
+}
+.footer-description-wrapper p{
+    color: white;
+    margin: 15px 0 10px;
+}
+.primary-color{
+    color: #14cab4;
+    margin-right: 5px;
+}
+
+.legal-advert-wrapper h3{
+    color: white;
+    font-weight: 700;
+}
+.legal-advert-wrapper p{
+    color: white;
+}
+.openingHours-heading-wrapper h3{
+    color: white;
+    font-weight: 700;
+}
+.schedule-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.footer-bottom{
+    background-color: #14cab4;
+    padding: 20px 0;
+}
+.social-icons ul{
+    display: flex;
+    justify-content: right;
+    
+}
+.social-icons li{
+    list-style: none;
+    border: 2px solid white;
+    margin-right: 20px;
+    border-radius: 50%;
+    padding: 10px;
+}
+.copyrights{
+    padding: 15px;
+}
