@@ -2,12 +2,16 @@
     padding: 100px 0px 75px 0px;
 
 }
+.feedback-main-wrapper{
+    position: relative;
+}
 .feedback-divider{
     left: 0;
+    top: 0;
     z-index: 3;
     min-height: 16px;
     width: 100%;
-    position: absolute;
+    filter: invert(100%);
 }
 .h2-style2 {
     color: #ffffff;
@@ -62,8 +66,10 @@
 }
 .customer-image-wrapper{
     margin-bottom: 20px;
-    margin: auto;
-    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 .customer-image-wrapper{
     text-align: center;

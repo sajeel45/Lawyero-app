@@ -1,11 +1,6 @@
 .op-header {
     background-color: #1a2431;
     min-height: 50px;
-    /* position: fixed;
-    top: 30px;
-    left: 0;
-    width: 100%;
-    z-index: 99; */
 }
 .op-header .op-logo {
     position: relative;

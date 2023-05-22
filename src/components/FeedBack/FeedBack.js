@@ -49,7 +49,8 @@ const Feedback = () => {
   };
   return (
     <>
-      <div
+    <div className="feedback-main-wrapper">
+    <div
         style={{ backgroundImage: `url(${feedbackDivider})` }}
         className="feedback-divider"
       ></div>
@@ -89,6 +90,7 @@ const Feedback = () => {
             </Container>
           
         </div>
+      </div>
       </div>
     </>
   );

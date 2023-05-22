@@ -6,7 +6,7 @@ import BottomHeader from './BottomHeader/BottomHeader';
 
 const Header = () =>{
   return (
-    <header className="header active-top-bar">
+    <header className="header fixed-header active-top-bar">
         <TopHeader />
         <BottomHeader />
     </header>

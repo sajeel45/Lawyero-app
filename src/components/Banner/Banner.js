@@ -27,7 +27,7 @@ const captions = [
   {
     id:2,
     src:banner2,
-    heading:'Get the legal help you are looking for!',
+    heading:'At Lawyero We Are For Your Help',
     caption:'Get Appointment',
     icon:<FaArrowRight />,
     link:'http://bsmthemes.com/demo/lawyero/who-we-are/'
@@ -35,7 +35,7 @@ const captions = [
   {
     id:3,
     src:banner3,
-    heading:'Your Consultant for every legal Issue',
+    heading:'Get the legal help you are looking for!',
     caption:'Find out More',
     icon:<FaArrowRight />,
     link:'http://bsmthemes.com/demo/lawyero/who-we-are/'
