@@ -45,11 +45,12 @@ const Feedback = () => {
     infinite: false,
     arrows: true,
     slidesToShow: 1,
-    infinite:true
+    infinite:true,
+    
   };
   return (
     <>
-    <div className="feedback-main-wrapper">
+    <div className="feedback-main-wrapper" >
     <div
         style={{ backgroundImage: `url(${feedbackDivider})` }}
         className="feedback-divider"
@@ -66,7 +67,7 @@ const Feedback = () => {
             <Container>
               <Slider {...settings}>
               {items.map((item, index) => (
-              <div key={index}>
+              <div key={index} className="feedback-slide">
                 <div className="feedback-content-wrapper">
                   <div className="customer-image-wrapper">
                     <img src={item.img} alt="team-member" />

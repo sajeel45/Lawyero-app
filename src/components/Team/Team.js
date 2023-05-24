@@ -70,7 +70,7 @@ const Team = () =>{
             <div className='team-section-main-wrapper'>
                 <Slider {...settings}>
                     {members.map((member,index)=>(
-                <div className='team-section-item-wrapper' key={index}>
+                <div className='team-section-item-wrapper' id='team-section-item-wrapper' key={index}>
                     <a href={member.link}>
                     <div className='team-image-wrapper'>
                         <div className='svg-style' style={{backgroundImage: `url(${cornerEdge})`}}>

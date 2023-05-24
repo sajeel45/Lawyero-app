@@ -12,6 +12,11 @@
     min-height: 16px;
     width: 100%;
     filter: invert(100%);
+    opacity: 0.8;
+    
+}
+.feedback-slide{
+    margin: 0 10px;
 }
 .h2-style2 {
     color: #ffffff;
@@ -41,6 +46,9 @@
 }
 .feedback-slider-wrapper{
     margin-top: 100px;
+}
+.feedback-slider-wrapper .feedback-slide{
+    margin-right: 10px;
 }
 .customer-designation-wrapper p{
     color: #ffffff;

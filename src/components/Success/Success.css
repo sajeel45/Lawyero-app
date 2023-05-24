@@ -16,6 +16,11 @@
     min-height: 16px;
     width: 100%;
 }
+.counter-symbol{
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+}
 .dark-color-overlay-over-image:before {
     content: '';
     position: absolute;

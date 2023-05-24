@@ -10,8 +10,10 @@
     position: relative;
 }
 .team-image-wrapper img{
-    width: 280px;
-    
+    width: 280px;  
+}
+#team-section-item-wrapper{
+    margin-right: 10px;
 }
 .team-content-wrapper{
     width: 280px;
@@ -89,14 +91,4 @@
     right: -50px;
 }
 
-.team-image-wrapper .team-member-image:before{
-    position: absolute;
-    transition: all 0.5s ease;
-    width: 0%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.3);
-}
-.team-image-wrapper:hover .team-member-image:before{
-    width: 100%;
-    transition: all 0.5s ease;
-}
+
