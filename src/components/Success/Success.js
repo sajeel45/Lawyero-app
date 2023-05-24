@@ -11,21 +11,24 @@ const items = [
     icon: <FaHandshake color="#fafafa" className="panel-icon-styling" size="70px" />,
     id: 1,
     count: 150,
-    symbol:'+',
+    prefix:'',
+    suffix:'+',
     caption: "Customers",
   },
   {
     icon: <FaDollarSign color="#fafafa" className="panel-icon-styling" size="70px" />,
     id: 2,
     count: 20000000,
-    symbol:'$',
+    prefix:'$',
+    suffix:'',
     caption: "Recovered",
   },
   {
     icon: <FaThumbsUp color="#fafafa" className="panel-icon-styling" size="70px" />,
     id: 3,
     count: 98,
-    symbol:'%',
+    prefix:'',
+    suffix:'%',
     caption: "Success Ratio",
   },
 ];
@@ -42,8 +45,8 @@ const Success = () => {
                 <div className="panel-icon-wrapper">{item.icon}</div>
                 <div className="panel-counter-wrapper">
                   {/* <span className="counter" >{}</span> */}
-                  <CountUp end={item.count} className="counter" duration={2.5} separator="," decimal="." />
-                  <span className="counter-symbol">{item.symbol}</span>
+                  <CountUp end={item.count} className="counter" duration={2.5} separator="," decimal="." suffix={item.suffix} prefix={item.prefix} enableScrollSpy={true} scrollSpyDelay="500"/>
+                  {/* <span className="counter-symbol">{item.symbol}</span> */}
                   <p className="panel-item-caption">{item.caption}</p>
                 </div>
               </div>
