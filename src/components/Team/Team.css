@@ -12,6 +12,23 @@
 .team-image-wrapper img{
     width: 280px;  
 }
+.team-member-image:before{
+    width: 0;
+    position: absolute;
+    height: 100%;
+    transform: rotate(0deg);
+    left: 0;
+    top: 0;
+    z-index: 2;
+    content: "";
+    background: rgba(0, 0, 0, 0.3);
+    
+   
+}
+.team-member-image:hover::before{
+    width: 100%;
+    transition: all 0.5s ease;
+}
 #team-section-item-wrapper{
     margin-right: 10px;
 }
@@ -87,7 +104,7 @@
     color: black;
     border: none;
     outline: none;
-    background-color: transparent;
+    background-color: #000;
     right: -50px;
 }
 

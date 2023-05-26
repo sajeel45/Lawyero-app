@@ -41,7 +41,10 @@
 .semi-bold{
     font-weight: 600;
     margin-left: 20px;
-    color: #1a2431;;
+    color: #1a2431;
+}
+.semi-bold:hover{
+    color: #1a2431;
 }
 .fax-wrapper{
     margin-top: 20px;

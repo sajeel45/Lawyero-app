@@ -74,7 +74,6 @@ const Team = () =>{
                     <a href={member.link}>
                     <div className='team-image-wrapper'>
                         <div className='svg-style' style={{backgroundImage: `url(${cornerEdge})`}}>
-                            
                         </div>
                         <div  className='team-member-image'>  
                         <img src={member.img} alt='teamMember'/>

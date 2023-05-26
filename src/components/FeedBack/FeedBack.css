@@ -11,8 +11,8 @@
     z-index: 3;
     min-height: 16px;
     width: 100%;
-    filter: invert(100%);
-    opacity: 0.8;
+    position: absolute;
+    transform: rotate(180deg);
     
 }
 .feedback-slide{
