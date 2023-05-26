@@ -12,7 +12,7 @@
 .team-image-wrapper img{
     width: 280px;  
 }
-.team-member-image:before{
+.team-section-main-wrapper .team-section-item-wrapper .team-member-image:before{
     width: 0;
     position: absolute;
     height: 100%;
@@ -25,7 +25,7 @@
     
    
 }
-.team-member-image:hover::before{
+.team-section-main-wrapper .team-section-item-wrapper .team-member-image:hover::before{
     width: 100%;
     transition: all 0.5s ease;
 }
