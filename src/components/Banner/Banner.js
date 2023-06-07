@@ -42,7 +42,7 @@ const captions = [
   }
 ];
 
-const Banner = () => {
+const Banner = ({ captions }) => {
   return (
     <Row>
     <section className="op-slogan-section op-title-wrapper dark-color-overlay-over-image">

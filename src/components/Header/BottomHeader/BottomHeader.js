@@ -9,7 +9,7 @@ import "./BottomHeader.css";
 
 const BottomHeader = () => {
   return (
-    <div className="op-header">
+    <div className='op-header'>
       <Container>
         <Row>
           <Col md="3" sm="12" className="op-logo-container">

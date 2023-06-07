@@ -45,7 +45,7 @@ const Success = () => {
                 <div className="panel-icon-wrapper">{item.icon}</div>
                 <div className="panel-counter-wrapper">
                   {/* <span className="counter" >{}</span> */}
-                  <CountUp end={item.count} className="counter" duration={2.5} separator="," decimal="." suffix={item.suffix} prefix={item.prefix} enableScrollSpy={true} scrollSpyDelay="500"/>
+                  <CountUp end={item.count}  className="counter" duration={2.5} separator="," decimal="." suffix={item.suffix} prefix={item.prefix} enableScrollSpy={true} scrollSpyOnce={true} scrollSpyDelay="500"/>
                   {/* <span className="counter-symbol">{item.symbol}</span> */}
                   <p className="panel-item-caption">{item.caption}</p>
                 </div>
