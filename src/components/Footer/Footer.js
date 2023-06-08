@@ -46,7 +46,7 @@ const Footer = () => {
                 <Col md='4' sm='6' className='footer-description-wrapper'>
                 <img src={logo} alt='logo'/>
                 <p>Lawyero is the ultimate theme for the attorneys and law firms that best suits their requirements. It is composed of large number of components and is made with love.</p>
-                <a class="contact-button" style={{top:'10%'}} href="https://themeforest.net/item/lawyero-attorneys-lawyer-wordpress-theme/21210150" target="_blank" rel="noopener">
+                <a className="contact-button" style={{top:'10%'}} href="https://themeforest.net/item/lawyero-attorneys-lawyer-wordpress-theme/21210150" target="_blank" rel="noopener">
                 <span><FaArrowRight/></span>Buy Now</a>
                 </Col>
             <Col md='4' sm='6' className='legal-advert-wrapper'>

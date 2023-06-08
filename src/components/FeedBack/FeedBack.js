@@ -60,7 +60,7 @@ const Feedback = () => {
         style={{ backgroundImage: `url(${background})` }}
       >
         <div className="feedback-heading-wrapper">
-          <h2 class="default h2-style2">What Our Customers Say</h2>
+          <h2 className="default h2-style2">What Our Customers Say</h2>
         </div>
         <div className="feedback-slider-wrapper">
           

@@ -17,7 +17,7 @@ import Footer from "../Footer/Footer";
 const Content = (props) => {
   return (
     <div className="content-section">
-      <Banner />
+      <Banner bannerImages={props.bannerImages} />
       <Achievements />
       <Success />
       <About />

@@ -20,7 +20,7 @@ const Library = () =>{
                         </div>
                     </div>
                     <div className='library-button-wrapper'>
-                    <a href="http://bsmthemes.com/demo/lawyero/contact/" class="transparent-button request-button">Request Free Consultation</a>
+                    <a href="http://bsmthemes.com/demo/lawyero/contact/" className="transparent-button request-button">Request Free Consultation</a>
                     </div>
                     </Col>
                 </Row>

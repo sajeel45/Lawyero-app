@@ -16,13 +16,13 @@ const Contact = () => {
             <div className="address-section-contact-wrappper">
               <div>
                 <FaPhone color="black" size="15px" />
-                <a class="semi-bold" href="tel:123-456-7890">
+                <a className="semi-bold" href="tel:123-456-7890">
                   123-456-7890
                 </a>
               </div>
               <div className="fax-wrapper">
                 <FaFax color="black" size="15px" />
-                <a class="semi-bold" href="tel:123-456-7890">
+                <a className="semi-bold" href="tel:123-456-7890">
                   {" "}
                   123-456-7890
                 </a>

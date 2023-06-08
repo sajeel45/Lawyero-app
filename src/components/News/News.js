@@ -70,7 +70,7 @@ const News = () => {
         <Container>
           <Row>
             {newsItems.map((item, index) => (
-              <Col lg="4" md="6" sm="12">
+              <Col lg="4" md="6" sm="12" key={index}>
                 <div className="news-main-wrapper" key={index}>
                   <div className="news-item-wrapper">
                     <div className="news-image-wrapper">

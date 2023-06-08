@@ -43,13 +43,12 @@ const questions = [
 const Questions = () => {
   return (
     <>
-      
   <div className="questions-section-wrapper">
     <h2 className="h2-style1">Frequently Asked Questions</h2>
     <Container>
     <Row>
       {questions.map((item, index) => (
-        <Col lg="6" md="6" sm="12">
+        <Col lg="6" md="6" sm="12" key={index}>
           <div className="questions-wrapper">
             <div className="question-wrapper" key={index}>
               <div className="question-inner-wrapper">
