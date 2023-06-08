@@ -36,40 +36,7 @@ const bannerImages = [
     link:'http://bsmthemes.com/demo/lawyero/who-we-are/'
   }
 ];
-const bannerNewImages = [
-  {
-    id:1,
-    src:banner1,
-    heading:'Your Consultant for every legal Issue',
-    caption:'Find out More',
-    icon:<FaArrowRight />,
-    link:'http://bsmthemes.com/demo/lawyero/who-we-are/'
-  },
-  {
-    id:2,
-    src:banner2,
-    heading:'At Lawyero We Are For Your Help',
-    caption:'Get Appointment',
-    icon:<FaArrowRight />,
-    link:'http://bsmthemes.com/demo/lawyero/who-we-are/'
-  },
-  {
-    id:3,
-    src:banner3,
-    heading:'Get the legal help you are looking for!',
-    caption:'Find out More',
-    icon:<FaArrowRight />,
-    link:'http://bsmthemes.com/demo/lawyero/who-we-are/'
-  },
-  {
-    id:4,
-    src:banner3,
-    heading:'Get the legal help you are looking for!',
-    caption:'Find out More',
-    icon:<FaArrowRight />,
-    link:'http://bsmthemes.com/demo/lawyero/who-we-are/'
-  }
-];
+
 function App() {
   
   
@@ -77,9 +44,6 @@ function App() {
     <div>
       <Header />
       <Content bannerImages={bannerImages}/>
-      <BannerContainer>
-        <BannerTest bannerImages={bannerNewImages}/>
-      </BannerContainer>
     </div>
   );
 }
