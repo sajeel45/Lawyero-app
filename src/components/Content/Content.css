@@ -1,5 +1,6 @@
 .content-section {
     overflow: hidden;
+    z-index: 999;
 }
 .op-slogan-section.op-title-wrapper {
     background-attachment: fixed;

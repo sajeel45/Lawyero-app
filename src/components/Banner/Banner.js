@@ -4,9 +4,10 @@ import "slick-carousel/slick/slick-theme.css";
 import banner1 from "../../assets/contentbanners/banner1.jpg";
 import banner2 from "../../assets/contentbanners/banner2.jpg";
 import banner3 from "../../assets/contentbanners/banner3.jpg";
+import {FaArrowRight} from "react-icons/fa";
 import "./Banner.css";
 import {Container,Row} from "react-bootstrap";
-import {FaArrowRight} from "react-icons/fa";
+
 
 const settings = {
   infinite: true,
@@ -14,7 +15,6 @@ const settings = {
   slidesToScroll: 1,
   adaptiveHeight: true
 };
-
 const captions = [
   {
     id:1,
@@ -42,7 +42,9 @@ const captions = [
   }
 ];
 
-const Banner = ({ captions }) => {
+
+
+const Banner = ({images}) => {
   return (
     <Row>
     <section className="op-slogan-section op-title-wrapper dark-color-overlay-over-image">
