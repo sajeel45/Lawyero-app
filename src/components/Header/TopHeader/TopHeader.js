@@ -1,6 +1,5 @@
-import Container from "react-bootstrap/Container";
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+import {Container,Row,Col} from "react-bootstrap";
+import { Link } from 'react-router-dom';
 import "./TopHeader.css";
 
 const TopHeader = () => {
@@ -9,7 +8,7 @@ const TopHeader = () => {
             <Container>
                 <Row>
                     <Col xs={12} sm={6} className='op-call-us text-start'>
-                        Call Us: <a className="tel" href="tel:1911462242">1911-462-242</a>
+                        Call Us: <a className="tel" href="tel:1911-462-242">1911-462-242</a>
                     </Col>
                     <Col xs={12} sm={6} className='op-request text-end bold'>
                         {/* <Link to={""}>Request a free consultation</Link> */}
