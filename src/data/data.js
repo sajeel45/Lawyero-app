@@ -1,5 +1,5 @@
 import banner1 from "../assets/contentbanners/banner1.jpg";
-import banner2 from "../assets/contentbanners/banner1.jpg";
+import banner2 from "../assets/contentbanners/banner2.jpg";
 import banner3 from "../assets/contentbanners/banner3.jpg";
 import NewsCover1 from "../assets/news/legal-help.jpg";
 import NewsCover2 from "../assets/news/hammer.jpg";
