@@ -1,4 +1,4 @@
-import library from '../../assets/lawbuilding/lawbuilding.jpg'
+import library from '../../../assets/lawbuilding/lawbuilding.jpg'
 import { Container,Row,Col } from 'react-bootstrap';
 import './Library.css';
 

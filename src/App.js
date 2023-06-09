@@ -1,6 +1,7 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Home from "./components/Pages/Home/Home";
+import Header from "./components/common/Header/Header";
 import React from "react";
 import {
   createBrowserRouter,
@@ -15,7 +16,7 @@ function App() {
     },
     {
       path: "/contact",
-      element: <Home />,
+      element: <Header />,
     },
   ]);
   return (

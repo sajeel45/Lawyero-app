@@ -1,6 +1,6 @@
-import background from "../../assets/feedbackBackground/feedbackbackground.jpg";
-import feedbackDivider from "../../assets/feedbackdivider.svg";
-import { Container, Row, Col } from "react-bootstrap";
+import background from "../../../assets/feedbackBackground/feedbackbackground.jpg";
+import feedbackDivider from "../../../assets/feedbackdivider.svg";
+import { Container} from "react-bootstrap";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";

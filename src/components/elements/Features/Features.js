@@ -1,5 +1,5 @@
 import {Container,Row,Col} from 'react-bootstrap';
-import featureBackground from '../../assets/features/feature_bg.jpg';
+import featureBackground from '../../../assets/features/feature_bg.jpg';
 import { FaArrowRight } from 'react-icons/fa';
 import './Features.css';
 

@@ -3,6 +3,7 @@
     position: relative;
 }
 .content-wrapper{
+    position: relative;
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;

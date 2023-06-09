@@ -1,6 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap";
-import DividerGray from "../../assets/divider-gray.svg";
-import DividerGrayBottom from "../../assets/divider-gray-bottom.svg";
+import DividerGray from "../../../assets/divider-gray.svg";
+import DividerGrayBottom from "../../../assets/divider-gray-bottom.svg";
 import "./News.css";
 import { FaArrowRight } from "react-icons/fa";
 

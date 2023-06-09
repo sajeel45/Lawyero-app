@@ -1,4 +1,4 @@
-import logo from '../../assets/logo/logo.png';
+import logo from '../../../assets/logo/logo.png';
 import { FaArrowRight,FaChevronRight,FaFacebook,FaTwitter,FaLinkedin,FaYoutube} from 'react-icons/fa';
 import { Container,Row,Col } from 'react-bootstrap';
 import './Footer.css';

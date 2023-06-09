@@ -1,6 +1,5 @@
-import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container} from "react-bootstrap";
 import { FaPhone, FaFax, FaLocationArrow } from "react-icons/fa";
 import "./Contact.css";
 

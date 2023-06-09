@@ -1,6 +1,6 @@
 import CountUp from 'react-countup';
-import Divider from "../../assets/divider-white.svg";
-import background from "../../assets/librarybackground/library.jpg";
+import Divider from "../../../assets/divider-white.svg";
+import background from "../../../assets/librarybackground/library.jpg";
 import { Container, Row,Col } from "react-bootstrap";
 import "./Success.css";
 
@@ -19,9 +19,7 @@ const Success = (props) => {
               <div className="panel-item-wrapper panel-grid-cell">
                 <div className="panel-icon-wrapper">{item.icon}</div>
                 <div className="panel-counter-wrapper">
-                  {/* <span className="counter" >{}</span> */}
                   <CountUp end={item.count}  className="counter" duration={2.5} separator="," decimal="." suffix={item.suffix} prefix={item.prefix} enableScrollSpy={true} scrollSpyOnce={true} scrollSpyDelay="500"/>
-                  {/* <span className="counter-symbol">{item.symbol}</span> */}
                   <p className="panel-item-caption">{item.caption}</p>
                 </div>
               </div>

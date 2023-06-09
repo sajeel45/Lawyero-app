@@ -1,6 +1,6 @@
 import { Container } from 'react-bootstrap';
-import cornerEdge from '../../assets/corner-left.svg';
-import cornerBottom from '../../assets/corner-bottom.svg';
+import cornerEdge from '../../../assets/corner-left.svg';
+import cornerBottom from '../../../assets/corner-bottom.svg';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
