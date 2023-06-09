@@ -18,9 +18,6 @@ const Banner = (props) => {
 
   return (
     <Row>
-
-      {console.log(bannerImages)}
-
     <section className="op-slogan-section op-title-wrapper dark-color-overlay-over-image">
         <div className="page-content-container">
           <Slider {...settings} autoplay="true" autoplaySpeed={3000} className="op-banner">

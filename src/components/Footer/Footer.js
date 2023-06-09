@@ -3,41 +3,10 @@ import { FaArrowRight,FaChevronRight,FaFacebook,FaTwitter,FaLinkedin,FaYoutube} 
 import { Container,Row,Col } from 'react-bootstrap';
 import './Footer.css';
 
-const schedule = [
-    {
-        id:1,
-        day:'Mon',
-        timing:'9:00am-5:00pm'
-    },
-    {
-        id:2,
-        day:'Tue',
-        timing:'9:00am-5:00pm'
-    },
-    {
-        id:3,
-        day:'Wed',
-        timing:'9:00am-3:00pm'
-    },
-    {
-        id:4,
-        day:'Thurs',
-        timing:'9:00am-3:00pm'
-    },
-    {
-        id:5,
-        day:'Fri',
-        timing:'9:00am-3:00pm'
-    },
-    {
-        id:6,
-        day:'Sat-Sun',
-        timing:'Closed'
-    },
-    
-]
 
-const Footer = () => {
+
+const Footer = (props) => {
+    const schedule = props.schedule;
     return(
         <>
         <div className='footer-wrapper'>

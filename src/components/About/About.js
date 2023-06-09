@@ -1,22 +1,10 @@
-import member from "../../assets/about/member.jpg";
 import { Container, Row, Col } from "react-bootstrap";
-import { FaArrowRight } from "react-icons/fa";
 import { AnimationOnScroll } from "react-animation-on-scroll";
 import "./About.css";
 
-const aboutItems = [
-  {
-    id: 1,
-    title: "About Firm",
-    description1:
-      "The attorneys of Lawyero have proven their ability to obtain excellent results on behalf of clients across industries in a wide range of disputes, from complex, international tech-based litigation to shareholder/partnership disputes and high-profile art transactions.",
-    description2:
-      "Contact our office today to schedule a confidential consultation with one of your attorneys to discuss the particular legal challenges you or your business is facing.",
-    image: member,
-    icon: <FaArrowRight />,
-  },
-];
-const About = () => {
+
+const About = (props) => {
+  const aboutItems = props.aboutItems;
   return (
     <>
       {" "}

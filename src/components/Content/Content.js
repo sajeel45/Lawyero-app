@@ -13,23 +13,26 @@ import Questions from "../Questions/Questions";
 import Feedback from "../FeedBack/FeedBack";
 import Contact from "../Contact/Contact";
 import Footer from "../Footer/Footer";
+import {bannerImages,achievements,successItems,aboutItems,featuresItems,practiceItems,newsItems
+,teamMembers,questions,feedbackItems,schedule} from '../../data/data';
 
-const Content = (props) => {
+
+const Content = () => {
   return (
     <div className="content-section">
-      <Banner bannerImages={props.bannerImages} />
-      <Achievements />
-      <Success />
-      <About />
-      <Features />
-      <Practice />
-      <News />
-      <Team />
+      <Banner bannerImages={bannerImages} />
+      <Achievements achievements={achievements}/>
+      <Success successItems={successItems}/>
+      <About aboutItems={aboutItems}/>
+      <Features featuresItems={featuresItems}/>
+      <Practice practiceItems={practiceItems}/>
+      <News newsItems={newsItems}/>
+      <Team teamMembers={teamMembers}/>
       <Library />
-      <Questions />
-      <Feedback />
+      <Questions questions={questions}/>
+      <Feedback feedbackItems={feedbackItems}/>
       <Contact />
-      <Footer />
+      <Footer schedule={schedule}/>
     </div>
   );
 };

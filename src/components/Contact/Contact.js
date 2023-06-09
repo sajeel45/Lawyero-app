@@ -23,7 +23,6 @@ const Contact = () => {
               <div className="fax-wrapper">
                 <FaFax color="black" size="15px" />
                 <a className="semi-bold" href="tel:123-456-7890">
-                  {" "}
                   123-456-7890
                 </a>
               </div>
@@ -36,7 +35,6 @@ const Contact = () => {
                   style={{ marginRight: "10px" }}
                 />
                 <span>
-                  {" "}
                   4th Floor ABC Plaza Downtown, March Street, Sydney.
                 </span>
               </div>
