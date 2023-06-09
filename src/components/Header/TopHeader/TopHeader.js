@@ -11,7 +11,7 @@ const TopHeader = () => {
                         Call Us: <a className="tel" href="tel:1911-462-242">1911-462-242</a>
                     </Col>
                     <Col xs={12} sm={6} className='op-request text-end bold'>
-                        {/* <Link to={""}>Request a free consultation</Link> */}
+                        <Link to="/contact">Request a free consultation</Link>
                         <a href="/contact" className="request-free-consultation">Request a free consultation</a>
                     </Col>
                 </Row>
