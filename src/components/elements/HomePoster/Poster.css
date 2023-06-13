@@ -1,0 +1,33 @@
+.home-poster-wrapper{
+    position: relative;
+}
+.home-poster-wrapper img{
+    width: 100%;
+    height: auto;
+}
+.caption-wrapper{
+    position: absolute;
+    width: 100%;
+    padding: 0 15px;
+    padding-bottom: 30px;
+    margin: auto;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.caption-wrapper h2{
+    font-size: 50px;
+    display: block;
+    text-align: left;
+    font-weight: 700;
+    width: 60%;
+    line-height: 1.2;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    overflow: hidden;
+}
+.caption-wrapper h2 .pre-ticker-text{
+    display: block;
+}
+.typed-cursor{
+    animation-iteration-count: infinite;
+}

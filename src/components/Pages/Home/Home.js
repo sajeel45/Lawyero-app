@@ -4,7 +4,7 @@ import Footer from "../../common/Footer/Footer";
 import { schedule } from "../../../data/data";
 import HomeItems from "../../elements/HomeItems/HomeItems";
 
-function Home() {
+function Home(){
     return (
         <div>
             <Header />

@@ -5,6 +5,7 @@ import Logo from "../../../../assets/logo/logo.png";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { NavDropdown } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import "./BottomHeader.css";
 
 const BottomHeader = () => {
@@ -13,9 +14,9 @@ const BottomHeader = () => {
       <Container>
         <Row>
           <Col md="3" sm="12" className="op-logo-container">
-            <a href="http://bsmthemes.com/demo/lawyero" className="op-logo">
+            <Link to="/lawyeroHome" className="op-logo">
               <img src={Logo} alt="Logo" />
-            </a>
+            </Link>
           </Col>
           <Col md="9" sm="6" className="op-gns">
             <Navbar expand="lg" variant="dark" className="">
@@ -29,15 +30,11 @@ const BottomHeader = () => {
                     as="li"
                     renderMenuOnMount="true"
                   >
-                    <NavDropdown.Item href="#" className="nav-link">
-                      Home 1
-                    </NavDropdown.Item>
-                    <NavDropdown.Item href="#" className="nav-link">
-                      Home 2
-                    </NavDropdown.Item>
+                    <Link className="nav-link" to="/home1">Home 1</Link>
+                    <Link className="nav-link" to="/home2">Home 2</Link>
                   </NavDropdown>
                   <Nav.Item as="li">
-                    <Nav.Link href="#">Who We Are</Nav.Link>
+                    <Link to="/whoWeAre">Who We Are</Link>
                   </Nav.Item>
                   <NavDropdown
                     title="Practice Areas"
