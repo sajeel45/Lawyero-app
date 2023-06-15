@@ -34,7 +34,7 @@ const BottomHeader = () => {
                     <Link className="nav-link" to="/home2">Home 2</Link>
                   </NavDropdown>
                   <Nav.Item as="li">
-                    <Link to="/whoWeAre">Who We Are</Link>
+                    <Link to="/whoWeAre" className="nav-link">Who We Are</Link>
                   </Nav.Item>
                   <NavDropdown
                     title="Practice Areas"

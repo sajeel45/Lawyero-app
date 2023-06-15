@@ -1,0 +1,51 @@
+
+.aboutUs-text-wrapper{
+    position: absolute;
+    color: white;
+    text-align: center;
+    padding: 170px ;
+}
+.aboutUs-text-wrapper h2{
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.bg-styling{
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;   
+    height: 300px;
+    position: relative;
+    
+}
+.secondary-color h2{
+    color: #1a2431;
+}
+.about-us-description-wrapper{
+    padding: 100px 100px;
+}
+.about-us-description-wrapper h2{
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.about-us-paragraphs{
+    width: 70%;
+    margin-right: 50px;
+}
+.about-us-description-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.mission-description-wrapper{
+    width: 35%;
+    padding: 20px;
+    background-color: #1a2431;
+}
+.mission-description-wrapper h3{
+    font-weight: 700;
+    text-transform: capitalize;
+    color: white;
+}
+.mission-description-wrapper p{
+    color: white;
+}

@@ -12,6 +12,7 @@ import Library from "../Library/Library";
 import Questions from "../Questions/Questions";
 import Feedback from "../FeedBack/FeedBack";
 import Contact from "../Contact/Contact";
+import ContactUs from "../ContactUs/ContactUs";
 import {bannerImages,achievements,successItems,aboutItems,featuresItems,practiceItems,newsItems
 ,teamMembers,questions,feedbackItems} from '../../../data/data';
 
@@ -23,6 +24,7 @@ const HomeItems = () => {
         <Success successItems={successItems}/>
         <About aboutItems={aboutItems}/>
         <Features featuresItems={featuresItems}/>
+        <ContactUs />
         <Practice practiceItems={practiceItems}/>
         <News newsItems={newsItems}/>
         <Team teamMembers={teamMembers}/>

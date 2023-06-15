@@ -19,13 +19,13 @@ const Team = (props) =>{
         slidesToScroll: 1
     };
     const teamMembers = props.teamMembers;
-
     return(
-        <Container>
-        <div className='team-section-wrapper'>
-            <div className='team-section-heading'>
-                <h2 className='h2-style1'>Our Team</h2>
+        
+        <div className='team-section-wrapper' style={{backgroundColor:props.backgroundColor}}>
+            <div className='team-section-heading' style={{padding:props.padding}}>
+                <h2 className='h2-style1' style={{color:props.color}}>Our Team</h2>
             </div>
+            <Container>
             <div className='team-section-main-wrapper'>
                 <Slider {...settings}>
                     {teamMembers.map((member,index)=>(
@@ -39,7 +39,7 @@ const Team = (props) =>{
                         </div>
                         <div style={{backgroundImage: `url(${cornerBottom})`}} className='svg-style-bottom'></div>
                     </div>
-                    <div className='team-content-wrapper'>
+                    <div className='team-content-wrapper' style={{borderBottom:props.borderBottom,marginBottom:props.marginBottom}}>
                         
                         <div className='member-name-wrapper'>
                             <span className='member-name-styling'>{member.name}</span>
@@ -55,9 +55,10 @@ const Team = (props) =>{
                 ))}
                 </Slider>
             </div>
+            </Container>
             
         </div>
-        </Container>
+        
     )
 }
 export default Team;

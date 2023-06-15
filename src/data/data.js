@@ -16,7 +16,12 @@ import customer1 from "../assets/customers/customer1.jpeg";
 import customer2 from "../assets/customers/customer2.jpeg";
 import customer3 from "../assets/customers/customer3.jpeg";
 import poster from "../assets/HomePoster/poster.jpg";
-import penHeader from "../assets/aboutus/page-heading-1.jpg";
+import codecanyon from "../assets/trustImages/codecanyon.jpg";
+import audiojungle from "../assets/trustImages/audio-jingle.jpg";
+import graphicslogo from "../assets/trustImages/graphics-logo.jpg";
+import themeforest from "../assets/trustImages/themeforest.jpg";
+import video from "../assets/trustImages/video.jpg";
+import photodune from "../assets/trustImages/photodune.jpg";
 import {
   FaArrowRight,
   FaUser,
@@ -36,6 +41,8 @@ import {
   FaFutbol,
   FaBullhorn,
   FaSwimmer,
+  FaGraduationCap,
+  FaSmile,
 } from "react-icons/fa";
 import member from "../assets/about/member.jpg";
 
@@ -407,6 +414,7 @@ const posterdata = [
     img: poster,
     caption: "Consult Us For",
   },
+  
 ];
 const count_captions = [
   "Emergency Law",
@@ -418,12 +426,72 @@ const count_captions = [
   "Internet Fraud",
   "Business Law",
 ];
-const aboutUs = [
-{
-  id:1,
-  img:penHeader
-}
+const featureSection = [
+  {
+    id:1,
+    icon:<FaHandshake size="30px"  />,
+    caption:'FREE CONSULTATION',
+    description:'We offer free consultation and you never need to worry about the fees for consultation.'
+  },
+  {
+    id:2,
+    icon:<FaGraduationCap size="30px"/>,
+    caption:'MOST QUALIFIED TEAM',
+    description:'At Lawyero we have the best team which understands your case and try to help you achieve desired results.'
+  },
+  {
+    id:3,
+    icon:<FaEuroSign  size="30px"/>,
+    caption:'NO WIN NO FEES',
+    description:'We have helped numerous clients in their complicated law matters and we are expert at this.'
+  }
+]
+const featureSection2 = [
+  {
+    id:1,
+    icon:<FaBalanceScale size="30px"/>,
+    caption:'WE UNDERSTAND LAW',
+    description:'We have helped numerous clients in their complicated law matters and we are expert at this.'
+  },
+  {
+    id:2,
+    icon:<FaSmile size="30px"/>,
+    caption:'HAPPY CLIENTS',
+    description:'About 98% of our clients are satistied with the services they recieved and would be happy to recommend Lawyero to others.'
+  },
+  {
+    id:3,
+    icon:<FaBullhorn size="30px"/>,
+    caption:'WE LEAD YOU TO SUCCESS',
+    description:'Our ultimate goal is to help you and we believe that client is our asset.'
+  }
 ];
+const customerimages = [
+  {
+    id:1,
+    img:codecanyon
+  },
+  {
+    id:2,
+    img:audiojungle
+  },
+  {
+    id:3,
+    img:video
+  },
+  {
+    id:4,
+    img:graphicslogo
+  },
+  {
+    id:5,
+    img:photodune
+  },
+  {
+    id:6,
+    img:themeforest
+  }
+]
 export {
   bannerImages,
   achievements,
@@ -438,5 +506,7 @@ export {
   schedule,
   posterdata,
   count_captions,
-  aboutUs
+  featureSection,
+  featureSection2,
+  customerimages
 };

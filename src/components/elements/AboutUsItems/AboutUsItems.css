@@ -1,0 +1,9 @@
+
+.team-divider{
+    background-size: cover;
+    background-position: top;
+    min-height: 90px;
+}
+.my-btn .btn-new-style{
+    background-color: orange;
+}

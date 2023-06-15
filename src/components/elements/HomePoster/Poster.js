@@ -10,7 +10,7 @@ const Poster = (props) =>{
         {data.map((item,index)=>(
         <div className="home-poster-wrapper" key={index}>    
             <div className="poster-wrapper">
-                <img src={item.img} alt="poster"/>
+                <img src={item.img} alt="poster" style={{marginTop:"100px"}}/>
             </div>
             <Container>
             <div className="caption-wrapper">

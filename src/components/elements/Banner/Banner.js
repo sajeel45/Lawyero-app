@@ -9,7 +9,9 @@ const settings = {
   infinite: true,
   slidesToShow: 1,
   slidesToScroll: 1,
-  adaptiveHeight: true
+  adaptiveHeight: true,
+  autoplay:true,
+  autoplaySpeed:3000
 };
 
 const Banner = (props) => {
@@ -20,7 +22,7 @@ const Banner = (props) => {
     <Row>
     <section className="op-slogan-section op-title-wrapper dark-color-overlay-over-image">
         <div className="page-content-container">
-          <Slider {...settings} autoplay="true" autoplaySpeed={3000} className="op-banner">
+          <Slider {...settings}  className="op-banner">
             {bannerImages.map((item, index)=>(
             <div className="item" key={index}>
               <img src={item.src} alt="banner" />

@@ -1,0 +1,9 @@
+.customers-image-wrapper img{
+    filter: grayscale(100%);
+}
+.customers-trust-wrapper{
+    padding-top: 20px;
+}
+.customers-image-wrapper{
+    padding: 0 50px;
+}

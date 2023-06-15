@@ -19,9 +19,9 @@ const Feedback = (props) => {
   const feedbackItems = props.feedbackItems;
   return (
     <>
-    <div className="feedback-main-wrapper" >
+    <div className="feedback-main-wrapper" style={{marginTop:props.marginTop}}>
     <div
-        style={{ backgroundImage: `url(${feedbackDivider})` }}
+        style={{ backgroundImage: `url(${feedbackDivider})`,display:props.display }}
         className="feedback-divider"
       ></div>
       <div
