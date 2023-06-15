@@ -14,10 +14,10 @@ const AboutUsItems = () => {
         <div className="aboutUsItems-wrapper">
         <AboutUs />
         <div style={{backgroundImage: `url(${teamdivider})`}} className="team-divider" >
-        <Team teamMembers={teamMembers} backgroundColor="#1A2431" color="white" borderBottom="0px" marginBottom="100px" textTransform="capitalize" padding="100px 0 0 0"/>
+            <Team teamMembers={teamMembers} backgroundColor="#1A2431" color="white" borderBottom="0px" marginBottom="100px" padding="100px 0 0 0"/>
         </div>
         <div className="my-btn">
-        <ContactUs backgroundColor="#63CAB5" background="#1A2431"/>
+            <ContactUs backgroundColor="#63CAB5" buttonType="dark" textTransform="capitalize"/>
         </div>
         <FeatureSection featureSection={featureSection} featureSection2={featureSection2}/>
         <Trust customerimages={customerimages}/>

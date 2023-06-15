@@ -60,7 +60,6 @@ a.contact-button span:after{
 .contact-btn{
     float: right;
     margin-top: 0;
-    
 }
 .contact-button{
     padding: 14px 28px;
@@ -70,4 +69,7 @@ a.contact-button span:after{
     position: relative;
     text-transform: uppercase;
     font-weight: 700;
+}
+.contact-button-dark{
+    background: #1a2431;
 }

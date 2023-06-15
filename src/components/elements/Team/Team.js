@@ -33,6 +33,7 @@ const Team = (props) =>{
                     <a href={member.link}>
                     <div className='team-image-wrapper'>
                         <div className='svg-style' style={{backgroundImage: `url(${cornerEdge})`}}>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 45 45"> <polygon fill="#fff" points="0,0 45,0 0,45 0,0"></polygon></svg>
                         </div>
                         <div  className='team-member-image'>  
                         <img src={member.img} alt='teamMember'/>

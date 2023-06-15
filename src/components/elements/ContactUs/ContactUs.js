@@ -11,7 +11,7 @@ const ContactUs = (props) => {
             <p>Get the consultation For Most Complex Legal Issues.</p>
           </Col>
           <Col sm="3" xs="12" className="contact-btn">
-            <a href="#contact" className="contact-button btn-new-style" style={{background:props.background, textTransform:props.textTransform}}>
+            <a href="#contact" className={`contact-button contact-button-${props.buttonType}`} style={{textTransform:props.textTransform}}>
               Contact Us
               <span>
                 <FaArrowRight />
