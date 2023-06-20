@@ -20,7 +20,7 @@ const AboutUs = () => {
             </div>
           </section>
         </Row>
-        <div className="about-us-description-wrapper">
+        <Container className="about-us-description-wrapper">
           <div className="about-us-paragraphs">
             <h2 class="secondary-color default">
               We are all About Our Clients
@@ -37,7 +37,7 @@ const AboutUs = () => {
           <p>We never take that trust for granted. We learn our clients' needs and expectations; we communicate openly; we follow up frequently; we respond timely; and we are always available. In short, we develop a relationship with our clients. Our clients’ goals become our goals. We provide aggressive and professional legal representation to every client in order to ensure his or her issue is resolved in the best possible manner.</p>
 
           </div>
-        </div>
+        </Container>
       </div>
     </div>
   );

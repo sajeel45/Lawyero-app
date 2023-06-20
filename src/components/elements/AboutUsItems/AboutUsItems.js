@@ -14,7 +14,7 @@ const AboutUsItems = () => {
         <div className="aboutUsItems-wrapper">
         <AboutUs />
         <div style={{backgroundImage: `url(${teamdivider})`}} className="team-divider" >
-            <Team teamMembers={teamMembers} backgroundColor="#1A2431" color="white" borderBottom="0px" marginBottom="100px" padding="100px 0 0 0"/>
+            <Team teamMembers={teamMembers} backgroundColor="#1A2431" color="white" borderBottom="0px" marginBottom="100px" padding="100px 0 0 0" fill="#1A2431" bottomFill = "gray" newStyle="heading-new-style"/>
         </div>
         <div className="my-btn">
             <ContactUs backgroundColor="#63CAB5" buttonType="dark" textTransform="capitalize"/>

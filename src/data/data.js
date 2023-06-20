@@ -22,6 +22,14 @@ import graphicslogo from "../assets/trustImages/graphics-logo.jpg";
 import themeforest from "../assets/trustImages/themeforest.jpg";
 import video from "../assets/trustImages/video.jpg";
 import photodune from "../assets/trustImages/photodune.jpg";
+import family from "../assets/practiceAreas/family.jpg";
+import auto from "../assets/practiceAreas/auto.jpg";
+import buildings from "../assets/practiceAreas/buildings.jpg";
+import emergency from "../assets/practiceAreas/emergency.jpg";
+import sports from "../assets/practiceAreas/sports.jpg";
+import drowning from "../assets/practiceAreas/drowning.jpg";
+import childcare from "../assets/practiceAreas/childcare.jpg";
+import internet from "../assets/practiceAreas/internet.jpg";
 import {
   FaArrowRight,
   FaUser,
@@ -491,6 +499,56 @@ const customerimages = [
     id:6,
     img:themeforest
   }
+];
+const practiceAreas = [
+  {
+    id:1,
+    img:family,
+    caption:'Family Law',
+    description:'Family law involves a range of matters that are usually very personal, unique and emotionally challenging.'
+  },
+  {
+    id:2,
+    img:childcare,
+    caption:'Child Custody',
+    description:'Child custody involves a range of matters that are usually very personal, unique and emotionally challenging.'
+  },
+  {
+    id:3,
+    img:auto,
+    caption:'Auto Accidents',
+    description:'Auto accidents are hard to tackle because the are often unexpected. At that time you need someone ...'
+  },
+  {
+    id:4,
+    img:buildings,
+    caption:'Business Law',
+    description:'Business laws are complex and needs to be addressed carefully if you are to prosper in this high competition environment.'
+  },
+  {
+    id:5,
+    img:internet,
+    caption:'Internet Fraud',
+    description:'In this era of technology misuse of it is very common and almost one third of people are affected by the misuse ...'
+  },
+  {
+    id:6,
+    img:sports,
+    caption:'Sports Injury',
+    description:'Sports is good for health but sometimes it can nasty because of the injuries carried during the sporting activities.'
+  },
+  {
+    id:7,
+    img:emergency,
+    caption:'Emergency Law',
+    description:'Emergency can occur any time and anywhere. A person can only be prepared for an emergency ...'
+  },
+  {
+    id:8,
+    img:drowning,
+    caption:'Drowning Law',
+    description:'Most of the people love to go to a swimming pool to feel relax but sometimes things dont go as planned.'
+  },
 ]
 export {
   bannerImages,
@@ -508,5 +566,6 @@ export {
   count_captions,
   featureSection,
   featureSection2,
-  customerimages
+  customerimages,
+  practiceAreas
 };

@@ -43,12 +43,12 @@ const BottomHeader = () => {
                     as="li"
                     renderMenuOnMount="true"
                   >
-                    <NavDropdown.Item href="#" className="nav-link">
+                    <Link to="/2columnlayout" className="nav-link">
                       2 Column Layout
-                    </NavDropdown.Item>
-                    <NavDropdown.Item href="#" className="nav-link">
+                    </Link>
+                    <Link to="/3columnlayout" className="nav-link">
                       3 Column Layout
-                    </NavDropdown.Item>
+                    </Link>
                     <NavDropdown.Item href="#" className="nav-link">
                       Individual Practice Area
                     </NavDropdown.Item>

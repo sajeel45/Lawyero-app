@@ -1,6 +1,4 @@
 import { Container } from 'react-bootstrap';
-import cornerEdge from '../../../assets/corner-left.svg';
-import cornerBottom from '../../../assets/corner-bottom.svg';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -23,7 +21,7 @@ const Team = (props) =>{
         
         <div className='team-section-wrapper' style={{backgroundColor:props.backgroundColor}}>
             <div className='team-section-heading' style={{padding:props.padding}}>
-                <h2 className='h2-style1' style={{color:props.color}}>Our Team</h2>
+                <h2 className={`h2-style1 h2-style1-${props.newStyle}`} style={{color:props.color}}>Our Team</h2>
             </div>
             <Container>
             <div className='team-section-main-wrapper'>
@@ -32,13 +30,15 @@ const Team = (props) =>{
                 <div className='team-section-item-wrapper' id='team-section-item-wrapper' key={index}>
                     <a href={member.link}>
                     <div className='team-image-wrapper'>
-                        <div className='svg-style' style={{backgroundImage: `url(${cornerEdge})`}}>
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 45 45"> <polygon fill="#fff" points="0,0 45,0 0,45 0,0"></polygon></svg>
+                        <div className='svg-style'>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 45 45"> <polygon fill="#fff" points="0,0 45,0 0,45 0,0" style={{fill:props.fill}}></polygon></svg>
                         </div>
                         <div  className='team-member-image'>  
                         <img src={member.img} alt='teamMember'/>
                         </div>
-                        <div style={{backgroundImage: `url(${cornerBottom})`}} className='svg-style-bottom'></div>
+                        <div className='svg-style-bottom' >
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 60" > <polygon fill="#ffffff"  points="0,60 1440,60 1440,0 0,59.234" style={{fill:props.fill}} ></polygon></svg>
+                        </div>
                     </div>
                     <div className='team-content-wrapper' style={{borderBottom:props.borderBottom,marginBottom:props.marginBottom}}>
                         

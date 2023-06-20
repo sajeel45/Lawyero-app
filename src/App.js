@@ -7,9 +7,9 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import Header from "./components/common/Header/Header";
-import { Container } from "react-bootstrap";
 import AboutUs from "./components/Pages/WhoWeAre/AboutUs";
+import PracticeArea from "./components/Pages/2ColumnLayout/PracticeArea";
+import PracticeArea3 from "./components/Pages/3ColumnLayout/PracticeArea3Column";
 
 
 function App() {
@@ -33,6 +33,14 @@ function App() {
     {
       path: "/whoWeAre",
       element: <AboutUs />
+    },
+    {
+      path:"/2columnlayout",
+      element: <PracticeArea />
+    },
+    {
+      path:"/3columnlayout",
+      element: <PracticeArea3 />
     }
   ]);
   return (

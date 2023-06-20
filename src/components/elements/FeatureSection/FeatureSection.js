@@ -18,12 +18,12 @@ const FeatureSection = (props) => {
         <div className="featureSection-top-items-wrapper">
         
           <div className="featureSection-top-heading-wrapper">
-            <AnimationOnScroll animateIn="animate__zoomIn">
+            <AnimationOnScroll animateIn="animate__zoomIn" animateOnce="true">
             <h2 className="h2-style3">Why Choose Us</h2>
             </AnimationOnScroll>
           </div>
           {featureSection.map((item, index) => (
-            <AnimationOnScroll animateIn="animate__fadeInRight" >
+            <AnimationOnScroll animateIn="animate__fadeInRight" animateOnce="true">
             <div key={index} className="featureSection-item-main-wrapper">
               
               <div className="featureSection-icon-wrapper">
@@ -48,7 +48,7 @@ const FeatureSection = (props) => {
             </AnimationOnScroll>
           </div>
           {featureSection2.map((item, index) => (
-            <AnimationOnScroll animateIn="animate__fadeInRight">
+            <AnimationOnScroll animateIn="animate__fadeInRight" animateOnce="true">
             <div className="featureSection-item-main-wrapper" key={index}>
               <div className="featureSection-icon-wrapper">
                 <span>{item.icon}</span>

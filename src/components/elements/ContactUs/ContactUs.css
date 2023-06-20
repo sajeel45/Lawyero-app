@@ -20,6 +20,15 @@
     font-size: 20px;
     padding-top: 20px;
 }
+.contact-button{
+    padding: 14px 28px;
+    background-color: #63CAB5;
+    color: #f5f5f5;
+    top: 40%;
+    position: relative;
+    text-transform: uppercase;
+    font-weight: 700;
+}
 a.contact-button span{
     right: 30%;
     opacity: 0;
@@ -57,19 +66,52 @@ a.contact-button span:after{
 .contactUs-main-wrapper{
     padding-left: 50px;
 }
+.contact-button-dark span{
+    color: #1a2431;
+    font-size: 20px;
+    display: block;
+}
 .contact-btn{
     float: right;
     margin-top: 0;
 }
-.contact-button{
-    padding: 14px 28px;
-    background-color: #63CAB5;
-    color: #f5f5f5;
-    top: 40%;
-    position: relative;
-    text-transform: uppercase;
-    font-weight: 700;
-}
+
 .contact-button-dark{
     background: #1a2431;
+    color: white;
+    position: relative;
+}
+a.contact-button-dark:hover{
+    background-color: #63CAB5;
+    color: #1a2431;
+    border: 2px solid #1a2431;
+    padding-right: 45px;
+}
+.contact-button-dark:hover span{
+    opacity: 1;
+    right: 20px;
+}
+a.contact-button-dark span{
+    right: 30%;
+    opacity: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+    font-size: 100%;
+    transition: all 0.3s;
+}
+a.contact-button-dark span:before{
+    right: 30%;
+    opacity: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+    font-size: 100%;
+    transition: all 0.3s;
+}
+a.contact-button-dark span:after{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    transition: all 0.3s;
 }

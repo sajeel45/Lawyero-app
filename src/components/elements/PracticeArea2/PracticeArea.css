@@ -1,0 +1,54 @@
+.practiceArea-wrapper{
+    margin-bottom: 50px;
+}
+.practiceArea-top-wrapper{
+    margin-bottom: 100px;
+}
+.pageHeader-img-wrapper{
+    height: 300px;
+    position: relative;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pageHeader-heading{
+    position: absolute;
+}
+.pageHeader-heading h2{
+    color: white;
+    text-align: center;
+    padding: 170px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.bottom-content p{
+    text-align: center;
+}
+.practiceItem img{
+    width: 200px;
+}
+.practiceItem{
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 15px;
+    display: flex;
+    margin-bottom: 60px;
+}
+.practiceItem-content{
+    padding: 10px;
+}
+.practiceItem-content p{
+    text-align: start;
+    
+}
+.nav-stying{
+    color: black;
+    font-weight: 700;
+}
+.nav-stying:hover{
+    color: #63CAB5;
+}
+.learnMore-button-wrapper .button-style{
+    padding: 10px 20px;
+}
