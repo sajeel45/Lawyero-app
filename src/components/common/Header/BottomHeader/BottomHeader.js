@@ -19,7 +19,7 @@ const BottomHeader = () => {
             </Link>
           </Col>
           <Col md="9" sm="6" className="op-gns">
-            <Navbar expand="lg" variant="dark" className="">
+            <Navbar  expand = "lg" variant="dark" className="">
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse id="basic-navbar-nav" className="op-menu">
                 <Nav className=" nav-link nav" as="ul">

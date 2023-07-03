@@ -70,17 +70,13 @@
     min-width: 200px;
     display: block;
     opacity: 0;
-    -webkit-transform: scaleY(0);
     transform: scaleY(0);
-    -webkit-transition: opacity 0.5s 0.1s cubic-bezier(0.68, -0.55, 0.265, 1.55), -webkit-transform 0.5s 0.1s cubic-bezier(0.68, -0.55, 0.265, 1.55);
     transition: transform 0.5s 0.1s cubic-bezier(0.68, -0.55, 0.265, 1.55), opacity 0.5s 0.1s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-    -webkit-transform-origin: 0;
     transform-origin: 0 0;
 }
 .op-gns .op-menu > ul > li:hover > .dropdown-menu {
     display: block;
     opacity: 1;
-    -webkit-transform: scaleY(1);
     transform: scaleY(1);
 }
 .op-gns .op-menu .dropdown-menu a{
@@ -89,10 +85,6 @@
     padding: 15px 20px;
     font-size: 14px;
     line-height: 20px;
-    -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-    -ms-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
 }
 .op-gns .op-menu > ul > li .dropdown-menu a {
@@ -110,10 +102,6 @@
     background-color: transparent;
     padding-left: 15px;
     transform: translateX(10px);
-    -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-    -ms-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
     width: calc(100% - 10px);
     
